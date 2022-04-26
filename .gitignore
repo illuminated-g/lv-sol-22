@@ -15,3 +15,5 @@
 *.aliases
 *.lvlps
 .cache/
+/www/public
+/SummerOfLabVIEW/Builds

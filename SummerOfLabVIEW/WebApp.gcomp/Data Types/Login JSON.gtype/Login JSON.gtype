@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="89896B8C15D5577010DB40D8C16C314615127EF61821D39512AF16E50336331D165A5E3030DDEC0AFE0A4EE1D3471BFB64A42BCCA40283FDC03EB42ACA3B4907" Timestamp="1D8585F220FAAB1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@62309a2e2b7f45b7822a44aa13aa1911" Id="a177d77b0a944f7cb9e4d9b2005ae5d4" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="f18623380f3f428b89831c8388b971b8" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="de2c84aa7d014b1f9ac185ba97228c56" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="feafb88309a94e5fb1f79b83ae5fbdec" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@62309a2e2b7f45b7822a44aa13aa1911" Id="d6ed20c1cb954b449a3038f78e21f76c" Name="Login JSON">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>""</Field1>
+					<Field2>""</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="934f9dc336c6476abe45479d0b698ff3" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="5733e4c88fb040358d45d785f0a38db8" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="47603cb2bc5e44ca81b099b0b9a91209" Name="Login JSON.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="d15faed41649474681451a5e16a32a5d" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="8d707e3f89574063b68e1e2ca9a83767" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@62309a2e2b7f45b7822a44aa13aa1911" Height="[float]164" Id="91edaa7d9260437f8562781d164b8d39" Label="[UIModel]a3ad87d73d554ace93261f6221f3c30d" Left="[float]179" TabIndex="[int]0" Top="[float]181" Value="{DataItemBinding Id=d6ed20c1cb954b449a3038f78e21f76c}" Width="[float]246" xmlns="http://www.ni.com/PanelCommon">
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="d5f065eb7dc3491fbb7fc195ee426448" Label="[UIModel]87d270e96eaa442eb3a23923f3daea47" Left="[float]4" TabIndex="[int]0" Text="{ClusterBinding FieldName=Email}" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]228" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="87d270e96eaa442eb3a23923f3daea47" LabelOwner="[UIModel]d5f065eb7dc3491fbb7fc195ee426448" Left="[float]4" Text="[string]Email" Top="[float]4" Width="[float]29" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="e93da4db3d474621aa22243bf567ef48" Label="[UIModel]32e1cdfeebf74e6b8d6352800381eab3" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=Password}" Top="[float]76" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]230" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="32e1cdfeebf74e6b8d6352800381eab3" LabelOwner="[UIModel]e93da4db3d474621aa22243bf567ef48" Left="[float]4" Text="[string]Password" Top="[float]56" Width="[float]50" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="6000b05cbf32409eb91ae6b1b683a0df" Label="[UIModel]c4f204f355a1462588f76ed04bae650f" Left="[float]4" TabIndex="[int]2" Text="{ClusterBinding FieldName=CSRF}" Top="[float]128" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]230" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="c4f204f355a1462588f76ed04bae650f" LabelOwner="[UIModel]6000b05cbf32409eb91ae6b1b683a0df" Left="[float]4" Text="[string]CSRF" Top="[float]108" Width="[float]27" />
+					</Cluster>
+					<Label Height="[float]16" Id="a3ad87d73d554ace93261f6221f3c30d" LabelOwner="[UIModel]91edaa7d9260437f8562781d164b8d39" Left="[float]179" Text="[string]Login JSON" Top="[float]161" Width="[float]62" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="62309a2e2b7f45b7822a44aa13aa1911">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Email" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Password" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="CSRF" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

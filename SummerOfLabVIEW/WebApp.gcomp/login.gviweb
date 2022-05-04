@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6DEDD34BA95C43A0606AC7060ACB6E9A538AE5BEE2E8759828C66DF8A8B87FE329854E9D510BEF9CFB89E60FAF3112B2C95BF7A9CC4974F259C3CB63E545BEC2" Timestamp="1D85921ACA5259C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="91DA1CDD81A35958C47933C8C31FA6656412B842634891E9D74A4B92198DCEFED2493B182AC8A5DA09073F05BB651FDD44E8BC7F7ABF57FF65F85EB5FEEFC874" Timestamp="1D8597B01D46002" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -45,7 +45,7 @@
 		</DiagramUnplacedItems>
 		<FrontPanelUnplacedItems Id="700d14c0158d4e318cc06cea416355e0" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="174a00e49a2e4def9043322072b69e56">
-			<MethodCall Bounds="220 325 40 40" Id="4318778f4fe945fbaf23ffa95cb88a44" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Auth\\Get CSRF Token.gvi&quot;" Signature="@d8b584f7e43a4bb9adff6eebaf2adb68" Target="WebApp::Support::Auth::Make CSRF Token.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="220 325 40 40" Id="4318778f4fe945fbaf23ffa95cb88a44" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Auth\\Make CSRF Token.gvi&quot;" Signature="@d8b584f7e43a4bb9adff6eebaf2adb68" Target="WebApp::Support::Auth::Make CSRF Token.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Token ID" />
@@ -188,13 +188,16 @@
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="fb0561980814843b47f45db5a8e0f1b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4467c869225148bfabb0bfbafd20b6f1" Label="[UIModel]f93c89136eea42d9a052f53a9794656e" Left="[float]116" TabIndex="[int]0" Text="{DataItemBinding Id=ed013a1405654b60a4af1e1c693a3c9f}" Top="[float]196" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]312" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="f93c89136eea42d9a052f53a9794656e" LabelOwner="[UIModel]4467c869225148bfabb0bfbafd20b6f1" Left="[float]116" Text="[string]NI Email" Top="[float]176" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
-			<MaskedInput BaseName="[string]Masked Input" Height="[float]24" Id="2b0f6f83c011415d86714dac1d636652" Label="[UIModel]cf510757061348dead0be2cb588dc34d" Left="[float]116" MaskedValue="{DataItemBinding Id=6d6c788bffe74788899813f2d072abaa}" TabIndex="[int]1" Top="[float]260" Width="[float]312" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="cf510757061348dead0be2cb588dc34d" LabelOwner="[UIModel]2b0f6f83c011415d86714dac1d636652" Left="[float]116" Text="[string]Password" Top="[float]240" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
-			<Button BaseName="[string]Button" Content="[string]Login" Height="[float]28" Id="5837252c6a884cfda40d1ea6c9ebb9e4" Label="[UIModel]897acc3958b54efaaeea9ce44612f3b8" Left="[float]116" TabIndex="[int]2" Top="[float]324" Value="{DataItemBinding Id=d90a94cc4af47868bed70fa8405c515}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="897acc3958b54efaaeea9ce44612f3b8" LabelOwner="[UIModel]5837252c6a884cfda40d1ea6c9ebb9e4" Left="[float]116" Text="[string]Login" Top="[float]304" Visible="[bool]False" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<MaskedInput BaseName="[string]Masked Input" Height="[float]24" Id="2b0f6f83c011415d86714dac1d636652" Label="[UIModel]cf510757061348dead0be2cb588dc34d" Left="[float]116" MaskedValue="{DataItemBinding Id=6d6c788bffe74788899813f2d072abaa}" TabIndex="[int]1" Top="[float]292" Width="[float]312" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="cf510757061348dead0be2cb588dc34d" LabelOwner="[UIModel]2b0f6f83c011415d86714dac1d636652" Left="[float]116" Text="[string]Password" Top="[float]272" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]Button" Content="[string]Login" Height="[float]28" Id="5837252c6a884cfda40d1ea6c9ebb9e4" Label="[UIModel]897acc3958b54efaaeea9ce44612f3b8" Left="[float]116" TabIndex="[int]2" Top="[float]356" Value="{DataItemBinding Id=d90a94cc4af47868bed70fa8405c515}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="897acc3958b54efaaeea9ce44612f3b8" LabelOwner="[UIModel]5837252c6a884cfda40d1ea6c9ebb9e4" Left="[float]116" Text="[string]Login" Top="[float]336" Visible="[bool]False" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
 			<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]Create Account" Foreground="[SMColor]#ff73a9d8" Height="[float]15" Id="9f544cca122b4c2e9bf8645695c9a947" IsUrlSameAsContent="[bool]False" Label="[UIModel]46b6f0da65ac4fe895fcd24e07d99af4" Left="[float]276" TabIndex="[int]3" TargetUrl="{DataItemBinding Id=a73251f906404a3eb9d42543f2f1a936}" Top="[float]116" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="46b6f0da65ac4fe895fcd24e07d99af4" LabelOwner="[UIModel]9f544cca122b4c2e9bf8645695c9a947" Left="[float]276" Text="[string]Register Link" Top="[float]96" Visible="[bool]False" Width="[float]68" xmlns="http://www.ni.com/PanelCommon" />
 			<Text BaseName="[string]Text" Height="[float]16" Id="ab53457ebe734dd1b4af6a77b5c54598" Left="[float]116" Text="[string]Don't have an account yet?" TextWrapping="[TextWrapping]Wrap" Top="[float]116" Width="[float]151" xmlns="http://www.ni.com/PlatformFramework" />
+			<Text BaseName="[string]Text" Height="[float]16" Id="41ff6121d4fd4426b183250ebc96cc77" Left="[float]116" Text="[string]Note: This does not use SSO and you need to have created an account with this site." TextWrapping="[TextWrapping]Wrap" Top="[float]223" Width="[float]439" xmlns="http://www.ni.com/PlatformFramework">
+				<FontSetting FontFamily="Segoe UI" FontSize="9" FontStyle="Italic" Id="21f735fab624405788b74b8c41d46550" />
+			</Text>
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="ed013a1405654b60a4af1e1c693a3c9f" Name="NI Email" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>

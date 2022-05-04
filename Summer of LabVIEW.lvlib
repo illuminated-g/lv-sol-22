@@ -39,6 +39,7 @@
 		<Item Name="User API.lvclass" Type="LVClass" URL="../User API/User API.lvclass"/>
 	</Item>
 	<Item Name="Data Types" Type="Folder">
+		<Item Name="Challenge JSON.ctl" Type="VI" URL="../Challenge JSON.ctl"/>
 		<Item Name="Login JSON.ctl" Type="VI" URL="../Data Types/Login JSON.ctl"/>
 		<Item Name="Registration JSON.ctl" Type="VI" URL="../Data Types/Registration JSON.ctl"/>
 		<Item Name="User Info JSON.ctl" Type="VI" URL="../Data Types/User Info JSON.ctl"/>

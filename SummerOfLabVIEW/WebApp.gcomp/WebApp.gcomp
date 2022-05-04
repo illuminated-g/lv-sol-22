@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="58A5B0050D9DAC0418B7782BD37CC7568A51464EEC7E8481F58A167193B546E701B0C38DCCD6827CFCD444873A65623EB391C3FD59F2FB3D414C61FAAC004FCC" Timestamp="1D85921ACA5259C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="77E6739963A22A63E68368D7E3B337C89AA5EC04EE329286A9D4D43AF4152A453EED0DD6BF9FE63B2C91627C8150304BC1F3D58B3AE70AE6130180A6CEBC016C" Timestamp="1D85F5CD111E26A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -41,6 +41,7 @@
 					<SourceFileReference Bindings="EnvoyManager" Id="2f3b1394201e423b979b8bcead800720" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Login JSON.gtype" StoragePath="Data Types\Login JSON.gtype\Login JSON.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="671e23ea76da4125ae345d8d7ae200a1" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Page State.gtype" StoragePath="Data Types\Page State.gtype\Page State.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="68446a88e94f4ad38e21749c37e0a45e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="User Info JSON.gtype" StoragePath="Data Types\User Info JSON.gtype\User Info JSON.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b23b2e584ffd4748bf0428c6cc8a4452" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Challenge JSON.gtype" StoragePath="Data Types\Challenge JSON.gtype\Challenge JSON.gtype" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8df07f73d71b480ba105bd1905a37da1" Name="Support">
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="de4ab2e4b0a641f1bdfcaa3b1c3d2aca" Name="Registration">
@@ -54,6 +55,9 @@
 						<SourceFileReference Id="a4667295588e4bd980dbf81b1b7d27f8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET User Info.gvi" StoragePath="Support\Auth\GET User Info.gvi" />
 					</NameScopingEnvoy>
 					<SourceFileReference Id="2c9e5713d7bb4a3783022e8fa01e31b0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="POST with Type.gvi" StoragePath="Support\POST with Type.gvi" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ab54afef4da747138bb0b1cc55ecdfbc" Name="Challenges">
+						<SourceFileReference Id="b0c29d3358cd44f5a6e7a896d6db5583" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Challenges.gvi" StoragePath="Support\Challenges\GET Challenges.gvi" />
+					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>

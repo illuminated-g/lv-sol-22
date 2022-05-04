@@ -17,3 +17,5 @@
 .cache/
 /www/public
 /SummerOfLabVIEW/Builds
+/www/db/sol.db
+/www/session/*

@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DBCC0C243E8D81912FEFF95905822F4DAD0D0A26D6AD55C26B7F99A7F8215D48DC07C520250CB5260D22B7269BE75C54FE633E7BF2726829DCDB757412FDB2AB" Timestamp="1D8546638FA3D8E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D6362CD66E931E8E17F95474EC1A4749E4F73922F8FF9786074B7DD0AAE3DBD028033E0281EDEE5B38AD1F01785F58B2C17A64469C93873771F02F2C22B6382E" Timestamp="1D85F6899935000" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
 	</SourceModelFeatureSet>
@@ -35,7 +37,77 @@
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="edceb68918434d308f5618ce1337bbc1" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="54279be259f74ea99e481809ea30063a" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
-		<BlockDiagram Id="ceb68dce24814522ae173c96851f2dc1" />
-		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="fa44bb13bb8745f2a11d33d9002996c8" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+		<BlockDiagram Id="ceb68dce24814522ae173c96851f2dc1">
+			<WhileLoop Bounds="75 170 880 585" DiagramId="6a57eaa9220244f19ed1e181e5f2d868" Id="4b3b71fc43fb4cb6bc7e0f661b0ba252">
+				<LoopIteration Bounds="5 555 15 15" Id="574a9d2647614166b96d31927588fce1" />
+				<LoopCondition Bounds="850 555 15 15" Id="2c3d0dbc47a24f998a2d535f3093304e" />
+				<EventStructure Bounds="20 10 830 535" Id="4a810e52745a4c7bb87a1288f37895e5" Selected="3ad81ab3bd1148028560b18b3a35d965" UserSelectorBounds="20 0 790 17">
+					<EventStructure.EventCase Bounds="21 18 788 509" Id="3ad81ab3bd1148028560b18b3a35d965">
+						<EventStructure.EventData Bounds="0 97 92 35" Id="c465bc56ce1e4c9e9d1a041f9815c622" InstanceDataType="@039698aee4f14b6db2a13b30a8847c77" PropertyPathsInSemanticOrder="Time,Index,Control Reference,Old Value,New Value">
+							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+								<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+							</p.TypeDefinitionTargets>
+							<EventPropertyItemTerminal DataType="@028a60270d994c8d9e98ab5e6bbeed3a" Hotspot="92 15" Id="c0t0v" Path="New Value" PathElementMemberKinds="Field" Usage="Optional" />
+						</EventStructure.EventData>
+						<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventSourceType="Content" EventType="@a72248dafef741a0badfde688b8c05f4" SourceName="Data Grid" />
+					</EventStructure.EventCase>
+				</EventStructure>
+			</WhileLoop>
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="fa44bb13bb8745f2a11d33d9002996c8" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlContainer BaseName="[string]HTML Container" Height="[float]600" Id="3ebd0309948e4dc6acf943f8c67cbf0f" Label="[UIModel]32e7f5f8a0724fc29fdcc054776bcb6f" Left="[float]36" Top="[float]100" Width="[float]952" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]0" Id="32e7f5f8a0724fc29fdcc054776bcb6f" LabelOwner="[UIModel]3ebd0309948e4dc6acf943f8c67cbf0f" Left="[float]36" Text="[string]HTML Container" Top="[float]80" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+		</HtmlFrontPanel>
 	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="039698aee4f14b6db2a13b30a8847c77">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.Controls.Runtime.DataGridProxy, NationalInstruments.Controls.Runtime`@028a60270d994c8d9e98ab5e6bbeed3a`@028a60270d994c8d9e98ab5e6bbeed3a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="@028a60270d994c8d9e98ab5e6bbeed3a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="@028a60270d994c8d9e98ab5e6bbeed3a" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="028a60270d994c8d9e98ab5e6bbeed3a">
+			<VariableArray DereferenceType="@6c20a3a123e548bf90d676ee96c09dfd" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a72248dafef741a0badfde688b8c05f4">
+			<Attributed AttributedType="@5abda495202745b3a7aa254b4c7ec929">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6c20a3a123e548bf90d676ee96c09dfd">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Challenge" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Download" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5abda495202745b3a7aa254b4c7ec929">
+			<Event Id="1" Name="Value changed" GenericTypeDefinition="Void">
+				<Parameters>
+					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="@0f231ae62c05493c9c3ea42dc28c576e" />
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0f231ae62c05493c9c3ea42dc28c576e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.Controls.Runtime.DataGridProxy, NationalInstruments.Controls.Runtime`@028a60270d994c8d9e98ab5e6bbeed3a`@028a60270d994c8d9e98ab5e6bbeed3a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="@028a60270d994c8d9e98ab5e6bbeed3a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="@028a60270d994c8d9e98ab5e6bbeed3a" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
 </SourceFile>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="77E6739963A22A63E68368D7E3B337C89AA5EC04EE329286A9D4D43AF4152A453EED0DD6BF9FE63B2C91627C8150304BC1F3D58B3AE70AE6130180A6CEBC016C" Timestamp="1D85F5CD111E26A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D210F744D67C538DFD13D849CAE6D17BDBAB43A762ED64762AA2D8ACE636527DBBEE2D0F468E3B0745EA09388C553BAA3B1E139E74A73EEF7BD428B3AC06FCDB" Timestamp="1D86008A044B4E1" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
@@ -22,6 +23,9 @@
 			<ComponentItemProperties AssociatedEnvoyId="e5e46f384ca14da4bad48fc0e6501b2f" Id="8bb77478aaf9417baf2bbfe60e334429" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="79ba9eed7b0a4a089d97c54a3ca6450d" Id="5cdcbd1f4a764aba852aed9b11bb9956" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="c94792224c3b4d3da3a8e6c0c4abc86f" Id="e181b24094c5498e809dfc45f322f654" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1d4cb939485a4be8acc0cf6f29a2b453" Id="856b4e95cb6c4e2ab4ce9615778c1ee7" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c7e4770203248739c46657ad3d7d232" Id="4b369dd0260b4b318f3190e56eff03ae" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8d87025a4c2c423485e4e738e606ae34" Id="601e16db684044dea3a7d82c3dc4fb76" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -57,7 +61,12 @@
 					<SourceFileReference Id="2c9e5713d7bb4a3783022e8fa01e31b0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="POST with Type.gvi" StoragePath="Support\POST with Type.gvi" />
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ab54afef4da747138bb0b1cc55ecdfbc" Name="Challenges">
 						<SourceFileReference Id="b0c29d3358cd44f5a6e7a896d6db5583" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Challenges.gvi" StoragePath="Support\Challenges\GET Challenges.gvi" />
+						<FileReference Bindings=".js" Id="1d4cb939485a4be8acc0cf6f29a2b453" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="challenges.js" StoragePath="Support\Challenges\challenges.js" />
+						<SourceFileReference Bindings="EnvoyManager" Id="225d6036614e467dac8cbce955aa701b" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Challenges.jsli" StoragePath="Support\Challenges\Challenges.jsli" />
+						<FileReference Bindings=".css" Id="c7e4770203248739c46657ad3d7d232" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="challenges.css" StoragePath="Support\Challenges\challenges.css" />
 					</NameScopingEnvoy>
+					<FileReference Bindings=".js" Id="8d87025a4c2c423485e4e738e606ae34" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="utilities.js" StoragePath="Support\utilities.js" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b9db2b5f2407461e8824efa670ff3ab9" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Utilities.jsli" StoragePath="Support\Utilities.jsli" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>

@@ -1,0 +1,43 @@
+.chal-placeholder {
+    overflow-y: scroll;
+}
+
+.chal-list {
+    position: relative;
+    font-size: 14px;
+}
+
+.chal-item {
+    padding: 1rem;
+}
+
+.chal-item:nth-child(odd) {
+    background-color: #CED;
+}
+
+.chal-item:nth-child(even) {
+    background-color: #DFE;
+}
+
+.chal-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    float: left;
+    margin-bottom: 1.5rem;
+    color: #284;
+}
+
+.chal-download {
+    float: right;
+}
+
+.chal-label {
+    clear: both;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.chal-desc {
+    clear: both;
+}

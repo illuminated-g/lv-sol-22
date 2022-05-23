@@ -1,0 +1,44 @@
+a[target="_blank"]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.initially-hidden {
+  display: none;
+}
+
+.sol-nav-bar {
+  background-color: lightgreen;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.sol-nav-logo {
+  height: 1.5rem;
+  padding-left: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.sol-nav-bar a {
+  text-decoration: none;
+  color: #065820;
+  margin-left: 2rem;
+}
+
+.sol-nav-logo img {
+  margin-right: 0.5rem;
+  vertical-align: bottom;
+}
+
+.sol-nav-user {
+  position: absolute;
+  right: 0;
+  padding-right: 2rem;
+  margin-top: 0.5rem;
+}

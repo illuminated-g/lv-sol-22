@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D210F744D67C538DFD13D849CAE6D17BDBAB43A762ED64762AA2D8ACE636527DBBEE2D0F468E3B0745EA09388C553BAA3B1E139E74A73EEF7BD428B3AC06FCDB" Timestamp="1D86008A044B4E1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A3CA8BD6021EDF86420330493C3CF618E3167642B26693303D28E1EDD38E80BED6A27D3CD7E5715F4F791B4C235DE800E459E55AB704D30DD0277FD16D037370" Timestamp="1D86E650A692166" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
@@ -16,7 +16,7 @@
 		<CompilerSymbolTable Id="ddfbea727ec147be897b7c86694fe749" xmlns="http://www.ni.com/PlatformFramework" />
 		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="d7bf9952201c4e719de7ca40e9710fa7" Name="Configuration1">
 			<CompilerSymbolTable Id="cad7cadb57f8495cbde6af663f9269c9" xmlns="http://www.ni.com/PlatformFramework" />
-			<WebApplicationOutputTypeProperties Id="5b26daa7f3f444a589ff2c4a08abecb0" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<WebApplicationOutputTypeProperties IconFileEnvoy="f15b15dc65284939a7893a456e9e161e" Id="5b26daa7f3f444a589ff2c4a08abecb0" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AssociatedEnvoyId="c52d553f8bb54973a8526542db9d4dc1" Id="334531236e694993b6794b8497f9c81c" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="6c92329077fc4034b752a3c6b356e251" Id="fe1e653ef7ac46deafb7dcb4279c3707" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="fa8a3df4bbeb42208461f67ab5bce796" Id="9327d9c96b3948ba8a5488a33d338d4b" TopLevel="True" />
@@ -26,6 +26,10 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1d4cb939485a4be8acc0cf6f29a2b453" Id="856b4e95cb6c4e2ab4ce9615778c1ee7" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c7e4770203248739c46657ad3d7d232" Id="4b369dd0260b4b318f3190e56eff03ae" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8d87025a4c2c423485e4e738e606ae34" Id="601e16db684044dea3a7d82c3dc4fb76" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4b1a54e05356404ca3c2041d4e6ea884" Id="ff1c7180a3b143d68ef52663f98206a0" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1af42958208f49bb8f6064d536a28285" Id="d9f8b8e59a85425987bdce0ccbd94d56" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f15b15dc65284939a7893a456e9e161e" Id="1240204d33b8476da7534528752d45ff" />
+			<ComponentItemProperties AssociatedEnvoyId="e6d60081272a4ba891f28f90f148639b" Id="7b2accdf30947c88755b06a4bf2f0aa" TopLevel="True" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -64,10 +68,20 @@
 						<FileReference Bindings=".js" Id="1d4cb939485a4be8acc0cf6f29a2b453" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="challenges.js" StoragePath="Support\Challenges\challenges.js" />
 						<SourceFileReference Bindings="EnvoyManager" Id="225d6036614e467dac8cbce955aa701b" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Challenges.jsli" StoragePath="Support\Challenges\Challenges.jsli" />
 						<FileReference Bindings=".css" Id="c7e4770203248739c46657ad3d7d232" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="challenges.css" StoragePath="Support\Challenges\challenges.css" />
+						<SourceFileReference Id="13c0db79a754d16a9c4f196fa818df4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Challenge by ID.gvi" StoragePath="Support\Challenges\GET Challenge by ID.gvi" />
+						<SourceFileReference Id="bc3d7ee61ca940cc88a647bbeefb2ae8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Challenge Details.gvi" StoragePath="Support\Challenges\Set Challenge Details.gvi" />
 					</NameScopingEnvoy>
 					<FileReference Bindings=".js" Id="8d87025a4c2c423485e4e738e606ae34" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="utilities.js" StoragePath="Support\utilities.js" />
-					<SourceFileReference Bindings="EnvoyManager" Id="b9db2b5f2407461e8824efa670ff3ab9" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Utilities.jsli" StoragePath="Support\Utilities.jsli" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b9db2b5f2407461e8824efa670ff3ab9" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Common.jsli" StoragePath="Support\Common.jsli" />
+					<FileReference Bindings=".css" Id="4b1a54e05356404ca3c2041d4e6ea884" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="sol.css" StoragePath="Support\sol.css" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="92c712195e77433189059b07f3eaa3e2" Name="Submit">
+						<SourceFileReference Id="c1189f6d41c0465aacd4b1d867b21156" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CreateForm.gvi" StoragePath="Support\Submit\CreateForm.gvi" />
+						<SourceFileReference Id="184c8064983c48639184617bae026805" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UploadFile.gvi" StoragePath="Support\Submit\UploadFile.gvi" />
+					</NameScopingEnvoy>
+					<FileReference Bindings=".js" Id="1af42958208f49bb8f6064d536a28285" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="pageTemplate.js" StoragePath="Support\pageTemplate.js" />
+					<FileReference Bindings=".ico" Id="f15b15dc65284939a7893a456e9e161e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="sol-logo.ico" StoragePath="Support\sol-logo.ico" />
 				</NameScopingEnvoy>
+				<SourceFileReference Id="e6d60081272a4ba891f28f90f148639b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="help.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="help.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="5b980660bf784182a4f2b622e53eee98" Name="WebApp.gcomp" NameTracksFileName="True">

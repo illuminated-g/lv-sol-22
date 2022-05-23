@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="DDF0F47A911252A9918919F2C947B21A6E129A2C0928AFA0D320983ABE30265437E034D9CC11B0B0EF81472A90591CAC068799532307181BAFA40144A56322AE" Timestamp="1D86D2D6CCD72A2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="2125a63aea0e4b4a99ca79ac4ed74c89" RootNamespaceId="3d9c8433866f4d3c87f455c321a6fc58" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="1ab07d9940d54d3fa9e1888ff1a0c7e0" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3d37926718f24489a4fc60bb91f45614" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="f46ba9a89a4dcdbefbf0cc953f821b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="8b71424482744b5ebcc7208ea92514da" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="G Library" Id="40493b4e768040acbadf563419e481cc" Name="Configuration1">
+			<CompilerSymbolTable Id="9ecf92530d5a41f8a70d0bd2d79838f8" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="add8512bb76f4281b3dc3795f10acac8" />
+			<ComponentItemProperties AssociatedEnvoyId="54e73f3e0fa4bc49361910d5f03016e" Exported="True" Id="b4d6173024a54798981515f5411b35d9" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="62822a4a4ac9421d8982528e68139c24" Id="65d663f8d4545cfa803f181fc852adb" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="e3a1c3531ef44c61a0334c296f33c89b" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="63e0542ab4e746489ac32adcd4b634e8" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="aeba2a98304e49c69497d011d7ad19c3" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3d9c8433866f4d3c87f455c321a6fc58" Name="Library">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="69f3a3fce0a74cc7beb438c8bda430b7" Name="Support">
+					<SourceFileReference Bindings="EnvoyManager" Id="54e73f3e0fa4bc49361910d5f03016e" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="GWebFormData.jsli" StoragePath="Support\GWebFormData.jsli" />
+					<FileReference Bindings=".js" Id="62822a4a4ac9421d8982528e68139c24" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="GWebFormData.js" StoragePath="Support\GWebFormData.js" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="f3f6ef8407f042e9b7c1a2718ea01ad7" Name="FormData.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="40493b4e768040acbadf563419e481cc" Id="ba61a02a537846c68b7dc1afffdffef6" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -19,6 +19,11 @@
     background-color: #DFE;
 }
 
+.chal-submit {
+    padding-right: 2rem;
+    float: right;
+}
+
 .chal-name {
     font-size: 1.5rem;
     font-weight: 600;

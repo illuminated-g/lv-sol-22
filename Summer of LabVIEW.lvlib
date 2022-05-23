@@ -36,6 +36,7 @@
 		<Item Name="Challenges.lvclass" Type="LVClass" URL="../Challenges/Challenges.lvclass"/>
 		<Item Name="CSRF.lvclass" Type="LVClass" URL="../CSRF/CSRF.lvclass"/>
 		<Item Name="Registration.lvclass" Type="LVClass" URL="../Registration/Registration.lvclass"/>
+		<Item Name="Submit.lvclass" Type="LVClass" URL="../Submit/Submit.lvclass"/>
 		<Item Name="User API.lvclass" Type="LVClass" URL="../User API/User API.lvclass"/>
 	</Item>
 	<Item Name="Data Types" Type="Folder">
@@ -50,11 +51,13 @@
 		<Item Name="Submission.lvclass" Type="LVClass" URL="../Submission/Submission.lvclass"/>
 	</Item>
 	<Item Name="Services" Type="Folder">
-		<Item Name="Challenge DB.lvclass" Type="LVClass" URL="../Challenge DB/Challenge DB.lvclass"/>
+		<Item Name="DB" Type="Folder">
+			<Item Name="Challenge DB.lvclass" Type="LVClass" URL="../Challenge DB/Challenge DB.lvclass"/>
+			<Item Name="Submission DB.lvclass" Type="LVClass" URL="../Submission DB/Submission DB.lvclass"/>
+			<Item Name="User DB.lvclass" Type="LVClass" URL="../User DB/User DB.lvclass"/>
+		</Item>
 		<Item Name="SOL Auth.lvclass" Type="LVClass" URL="../SOL Auth/SOL Auth.lvclass"/>
 		<Item Name="SQLite.lvclass" Type="LVClass" URL="../SQLite/SQLite.lvclass"/>
-		<Item Name="Submission DB.lvclass" Type="LVClass" URL="../Submission DB/Submission DB.lvclass"/>
-		<Item Name="User DB.lvclass" Type="LVClass" URL="../User DB/User DB.lvclass"/>
 	</Item>
 	<Item Name="SOL-Server.lvclass" Type="LVClass" URL="../SOL-Server/SOL-Server.lvclass"/>
 </Library>

@@ -1,16 +1,28 @@
 (function() {
     'use strict';
 
-    const buildChallengesList = function(placeholder, challengesJSON) {
+    const buildChallengesList = function(placeholder, challengesJSON, canSubmit) {
         var challenges = JSON.parse(challengesJSON);
         var container = document.createElement("div");
         container.classList.add("chal-list");
 
+        while (placeholder.firstChild) {
+            placeholder.removeChild(placeholder.firstChild);
+        }
+
+        if (challenges.length == 0) {
+            var msg = document.createElement("div");
+            msg.innerHTML = "<i>No challenges have begun yet.</i>";
+            placeholder.appendChild(msg);
+        }
+
         challenges.forEach(challenge => {
-            // Name
+            var elt;
             var chal = document.createElement("div");
             chal.classList.add("chal-item");
-            var elt = document.createElement("div");
+
+            // Name
+            elt = document.createElement("div");
             elt.classList.add("chal-name");
             elt.innerText = challenge.name;
             chal.appendChild(elt);
@@ -24,6 +36,14 @@
                 elt.innerHTML = '<a href="' + challenge.download + '">Download</a>';
             }
             chal.appendChild(elt);
+
+            //submit
+            if (canSubmit) {
+                elt = document.createElement("span");
+                elt.classList.add("chal-submit");
+                elt.innerHTML = '<a href="/submit.html?id=' + challenge.id + '">Submit</a>';
+                chal.appendChild(elt);
+            }
 
             // Description
             //elt = document.createElement("div");

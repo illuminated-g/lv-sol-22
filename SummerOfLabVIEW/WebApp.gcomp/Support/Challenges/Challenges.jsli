@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8FA57C4637E3C8092C5DCDFC34E40233D1C7EA2CD00ABA1884084013C6449CE58F81B19AB1596B3805050088C5517C2E1015A71F3918B8A8D299F1E336900307" Timestamp="1D85FD151FF6857" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="24C61DA588CE3A2B5677A8004F7F41FC4000F7E1268958FEF91E1A6150761FDC2FC4F9D05F63555F933F445CB903BC806DA400540DC17207F934DB587D3A055E" Timestamp="1D86CC987537AD0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -29,10 +29,10 @@
 							</IconTemplate>
 						</IconPanel>
 					</Icon>
-					<ConnectorPane Height="40" Id="93ded23b33b24142925f0412da2ad462" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
-						<ConnectorPaneTerminal ListViewHotspot="0 80" Parameter="ee2ff86c1c8e43cd8a0e89878c6090c1" />
+					<ConnectorPane Height="40" Id="93ded23b33b24142925f0412da2ad462" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal ListViewHotspot="0 95" Parameter="ee2ff86c1c8e43cd8a0e89878c6090c1" />
 						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 65" Parameter="a1ab61915a994ce19b5611c81a8503ef" />
-						<ConnectorPaneTerminal Hotspot="0 25" />
+						<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 80" Parameter="9c28e9dc4b3f47aa8acc70d4006e8790" />
 						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="f17d2c1b6cad4098bb10f1b3fffc3fb0" />
 						<ConnectorPaneTerminal Hotspot="15 0" />
 						<ConnectorPaneTerminal Hotspot="25 0" />
@@ -57,6 +57,10 @@
 						<JavaScriptType ActualDataType="@7a0d745212ea43e8a195a3e0a8f4fb9a" Id="6cd57971a07d46a88cb66cd51cfddb79" />
 						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="a1ab61915a994ce19b5611c81a8503ef" Name="challengesJSON" />
 					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="d592a40921384e10867de8b9a698f17c" Name="canSubmit">
+						<JavaScriptType ActualDataType="@d2fa43a9368e42e68ed3c38f551d293a" Id="37625311c1ea4af6a4be5eb0ab24bc71" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="9c28e9dc4b3f47aa8acc70d4006e8790" Name="canSubmit" />
+					</JavaScriptLibraryParameter>
 				</JavaScriptLibraryEntryPoint>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
@@ -79,6 +83,13 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="7a0d745212ea43e8a195a3e0a8f4fb9a">
 			<Attributed AttributedType="String">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d2fa43a9368e42e68ed3c38f551d293a">
+			<Attributed AttributedType="Boolean">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
 				</AttributeValues>

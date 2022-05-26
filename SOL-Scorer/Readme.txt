@@ -1,0 +1,13 @@
+Scorer creation info
+
+SOL-Scorer:Do Scoring.vi is the intended VI to work within. This VI is launched with the path to the submitted LLB to test and returns the scoring values and an optional results message (Test Summary). If there are sub-scores or additional scores that users should see, then the additional category score values can be filled in, regardless of their use in awards. Some ideas might be fastest solution time, slowest solution time, fewest attempts, most attempts, etc. As mentioned, these may be factored into the general score or they may just be informational or helpful to the participants in some way.
+
+Leave the build spec output name as scorer.exe; they will be separated into different folders based on the challenge ID.
+
+It will be possible for participants to get the web app to upload a "garbage" file so your scorer should have sufficient error handling in the event that the specified file isn't actually an LLB or that it doesn't have the intended contents necessary for the challenge. We won't worry about otherwise malicious content of code within a valid LLB and solution code; nightly backups will be made of the server submissions and database.
+
+To run scoring for a submission, you can log into the Summer of LabVIEW website (https://summeroflabview.com within the NI network) and navigate to the Admin page. From that page you will be able to see submissions waiting to be approved to run. The server application will run scoring on up to 2 submissions simultaneously and will work through the list of approved submissions as quickly as it can. In the event that scoring is updated (new scoring criteria is built, time limits change, etc.) the website will provide a way to re-run all submissions for a challenge that were already scored.
+
+Part of the values returned by a scorer is a Test Summary string. This is attended to provide information to the participant in the event a score can't be produced for their entry such as an incorrect submission, running past the time limit for a challenge, or whatever other invalid state a submission may get into. Participants will see this value in their table of scores to help them provide a valid submission.
+
+Uploads of the LLB is handled by the G Web app and the SummerOfLabVIEW server with submissions organized on disk by challenge and submission ID. (Not important) The LLB filename will always be <Submission ID>.llb with the Submission ID being the string representation of its I64 database ID. The scoring framework will save a file with the scores alongside the LLB which the Summer of LabVIEW server can then read from and update the score in the database for the participants to see.

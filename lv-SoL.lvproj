@@ -14,6 +14,7 @@
 		<Item Name="www" Type="Folder" URL="../www">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="SoL Scoring.lvlib" Type="Library" URL="../SoL Scoring/SoL Scoring.lvlib"/>
 		<Item Name="Summer of LabVIEW.lvlib" Type="Library" URL="../Summer of LabVIEW.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -118,7 +119,8 @@
 				<Property Name="Destination[4].destName" Type="Str">session</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/SummerOfLabVIEW/www/session</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{433EB8B3-129D-480A-A3F4-380817CFA129}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/www/public/ni-webvi-resource-v0/favicon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DD4A523D-3166-4B27-99B1-DBCB0AB5D0BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Summer of LabVIEW.lvlib/SOL-Server.lvclass/Public/Main.vi</Property>

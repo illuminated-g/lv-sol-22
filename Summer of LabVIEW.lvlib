@@ -38,11 +38,13 @@
 		<Item Name="Registration.lvclass" Type="LVClass" URL="../Registration/Registration.lvclass"/>
 		<Item Name="Submit.lvclass" Type="LVClass" URL="../Submit/Submit.lvclass"/>
 		<Item Name="User API.lvclass" Type="LVClass" URL="../User API/User API.lvclass"/>
+		<Item Name="User Submissions API.lvclass" Type="LVClass" URL="../User Submissions API/User Submissions API.lvclass"/>
 	</Item>
 	<Item Name="Data Types" Type="Folder">
-		<Item Name="Challenge JSON.ctl" Type="VI" URL="../Challenge JSON.ctl"/>
+		<Item Name="Challenge JSON.ctl" Type="VI" URL="../Data Types/Challenge JSON.ctl"/>
 		<Item Name="Login JSON.ctl" Type="VI" URL="../Data Types/Login JSON.ctl"/>
 		<Item Name="Registration JSON.ctl" Type="VI" URL="../Data Types/Registration JSON.ctl"/>
+		<Item Name="Submission JSON.ctl" Type="VI" URL="../Data Types/Submission JSON.ctl"/>
 		<Item Name="User Info JSON.ctl" Type="VI" URL="../Data Types/User Info JSON.ctl"/>
 	</Item>
 	<Item Name="Entities" Type="Folder">

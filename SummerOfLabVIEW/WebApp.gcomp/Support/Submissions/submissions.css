@@ -1,0 +1,23 @@
+.sol-subs {
+    width: 100%;
+}
+
+.sol-subs tr:nth-child(odd) {
+    background-color: #CED;
+}
+
+.sol-subs tr:nth-child(even) {
+    background-color: #DFE;
+}
+
+.sol-subs td {
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.sol-subs th {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #375;
+    color: #EEE;
+}

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8569D5A7C3BCE1E85EC03FF9D8D299FB7BCA306F70F43BBF6DB45DE7AE07936D0E3C8F2881800497318129734FED51CE682A8134EB3B102A63F8F1C1F91D73AD" Timestamp="1D870A99CA7EAA2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
+	</SourceModelFeatureSet>
+	<JavaScriptLibrary Id="fef857be5e7947bc85b25000278a2187" xmlns="http://www.ni.com/JavaScriptLibrary">
+		<Icon Id="4f67048c83724a9682b1a3dc5e542487" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="99487ccaaa0842c299a5a8de25aa076d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="bfb431290392408ea13bd128bd8c5547" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DependenciesTextBox Id="9e610dcceec24cf78782f503cf714b06" ScriptAndLinkDependencies="&quot;\r\n&amp;lt;script src=&amp;quot;submissions.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\r\n&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;submissions.css&amp;quot;&amp;gt;\r\n&quot;" />
+	</JavaScriptLibrary>
+	<EnvoyManagerFile Id="eadf527abce248b8b3dcd068c52631f6" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="782b4dc9839b48fa994f3c0d558ec448" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4ff95cb42a304a728588efcd382afa11" Name="Submissions.jsli" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="1ec962693361486daeca00d45856eed1" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibraryEntryPoint" Name="Show">
+				<JavaScriptLibraryEntryPoint Id="2a3f419303e4d8092843b415901f887" Symbol="Submissions.show" xmlns="http://www.ni.com/JavaScriptLibrary">
+					<Icon Id="73b64f82ad814a90948ce35cc2a74f10" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="7e7ac52d500d4264876cb7031753226e" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="beffb5c7c3b349f5aee03b3e58a5ba7b" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="1273181181e74205a7c43e29c96f7c70" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="518462879f934bd3b752d071dc07aa93" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Id="73c3703e1e714575868357094a6dc8b4" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Show" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="10.5" Id="8c6b58c46aa34e508a3ebda29c7f1f7a" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="40" Id="2584e8d6f5f040afbb7d7d3d320a1f61" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal ListViewHotspot="0 80" Parameter="70c6a7fb17a746a89efe9657d85aefb1" />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 65" Parameter="f63ee63d4aed44d08bce6330b81ca5a7" />
+						<ConnectorPaneTerminal Hotspot="0 25" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="949298073d4a469494727170eca6bcbb" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" />
+						<ConnectorPaneTerminal Hotspot="40 15" />
+						<ConnectorPaneTerminal Hotspot="40 25" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="516f7f1a605141788ada8dc11a7b881e" />
+						<ConnectorPaneTerminal Hotspot="15 40" />
+						<ConnectorPaneTerminal Hotspot="25 40" />
+					</ConnectorPane>
+					<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="949298073d4a469494727170eca6bcbb" IsError="True" Name="error in" />
+					<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="516f7f1a605141788ada8dc11a7b881e" IsError="True" Name="error out" />
+					<JavaScriptLibraryParameter Id="547b260d574f3faf89472449b98d6e" IsReturnParameter="True" Name="return">
+						<JavaScriptType ActualDataType="@761c1e6d42c140fea62c015adb1483c9" Id="d5d1bd121b941d4898df5311fbda849" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="636e657cf978425589342479cc0862fc" Name="return out" Visible="False" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="757e3bbcd9324638b0141bc5f965967f" Name="placeholder">
+						<JavaScriptType ActualDataType="@04818213b5764c2b947f8080aae7d37d" Id="2c9ad845c3fe4214b843c557877e07bc" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" CallUsage="Required" Id="70c6a7fb17a746a89efe9657d85aefb1" Name="placeholder" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="434fd053f5d34ac18a4f7b3aba6bd733" Name="submissions">
+						<JavaScriptType ActualDataType="@7a0d745212ea43e8a195a3e0a8f4fb9a" Id="fac7a508fbe04f468499a86e31636c24" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="f63ee63d4aed44d08bce6330b81ca5a7" Name="submissions" />
+					</JavaScriptLibraryParameter>
+				</JavaScriptLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="761c1e6d42c140fea62c015adb1483c9">
+			<Attributed AttributedType="Void">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="04818213b5764c2b947f8080aae7d37d">
+			<Attributed AttributedType="@d5cc76c39163420cb65dd0e1a0e0eb64">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="7a0d745212ea43e8a195a3e0a8f4fb9a">
+			<Attributed AttributedType="String">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d5cc76c39163420cb65dd0e1a0e0eb64">
+			<Composite Id="1" Name="NI.JavaScriptReference" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

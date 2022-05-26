@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="91DA1CDD81A35958C47933C8C31FA6656412B842634891E9D74A4B92198DCEFED2493B182AC8A5DA09073F05BB651FDD44E8BC7F7ABF57FF65F85EB5FEEFC874" Timestamp="1D8597B01D46002" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="68C519B48F3C32257796B5FACBD4AF22AC03DFECD42A59DE40182A0BA0DD6B9AF5B7833C15461DF7415F7095FA888B21D0A70B6BFFC6AD8BCA8F6F420DEB511D" Timestamp="1D870AC70E48A33" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -184,6 +184,26 @@
 				<p.Text>Login JSON</p.Text>
 			</NodeLabel>
 			<Wire Id="4dbedf3931da46e2b5d7f27e8dd84fd2" Joints="N(4d3a55bd4a1c4ff684df482e474f2b15:Out)|(258,200) N(6097891a51940b88770e8667a3187d0:ab4e24666e644a3da4c2abad4e59826d)|(276,200)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="450 5 40 40" Id="48b1cb5c2a8b44fa90dd5a721acd843d" ResolveFailedHint="ClearClassFromAll" Signature="@0519cfa2a2d44485b3fbeca225f0cacb" Target="WebApp::Support::Common.jsli::ClearClassFromAll" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="className" />
+						<Parameter Id="L3" Desc="error in" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Literal Bounds="320 5 100 15" DataType="String" Id="5b832d5c08414cde8933831f1c915432" Label="725c4f0207c6440f8ccf47edd12cb466" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>initially-hidden</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<Wire Id="fce462825bb04a93b43238a28815883e" Joints="N(5b832d5c08414cde8933831f1c915432:Out)|(420,10) N(48b1cb5c2a8b44fa90dd5a721acd843d:L0)|(450,10)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="5b832d5c08414cde8933831f1c915432" Bounds="320 -13 30 15" Id="725c4f0207c6440f8ccf47edd12cb466" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>className</p.Text>
+			</NodeLabel>
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="fb0561980814843b47f45db5a8e0f1b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4467c869225148bfabb0bfbafd20b6f1" Label="[UIModel]f93c89136eea42d9a052f53a9794656e" Left="[float]116" TabIndex="[int]0" Text="{DataItemBinding Id=ed013a1405654b60a4af1e1c693a3c9f}" Top="[float]196" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]312" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -257,6 +277,15 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
+		<p.TypeReference TypeId="0519cfa2a2d44485b3fbeca225f0cacb">
+			<Attributed AttributedType="@db1c75198f1b4969abe75050c3afbb82">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ParameterCallIndex" Value="[ParameterCallIndexFields]0|1|0" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
 		<p.TypeReference TypeId="1a2d3dd6a157452ebd2bacd2044c279c">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Make CSRF Token.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
@@ -299,6 +328,27 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
+		<p.TypeReference TypeId="db1c75198f1b4969abe75050c3afbb82">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="ClearClassFromAll" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@7d6b517914a14cdf91f9629117944385">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]className" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@7ebe9db9b81b4243a45350ff812f4aea">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@53891f63cfae4b43ac656ee8e64de405">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
 		<p.TypeReference TypeId="7d6b517914a14cdf91f9629117944385">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
 		</p.TypeReference>
@@ -329,6 +379,9 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="ad4925e0fa164bc0b2172aa73c3691e7">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@1c3f9c88f64445a09c1b85ebbc9e6c50" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="7ebe9db9b81b4243a45350ff812f4aea">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
@@ -363,6 +416,25 @@
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebApp::Support::Common.jsli::ClearClassFromAll">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]ClearClassFromAll" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][JSLI]&lt;Common.jsli&gt;" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>

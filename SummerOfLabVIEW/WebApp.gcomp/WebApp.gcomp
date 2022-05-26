@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A3CA8BD6021EDF86420330493C3CF618E3167642B26693303D28E1EDD38E80BED6A27D3CD7E5715F4F791B4C235DE800E459E55AB704D30DD0277FD16D037370" Timestamp="1D86E650A692166" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A211252EB20A4825ACC09B5B33DD515EE2F0145C395FB09393E758481031A7D9611BBB2B9022682CFA130719D6F0BEA3D72B90B16037685B9CB9F3505FD2E6D8" Timestamp="1D870AA1EB48C4A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
@@ -30,6 +30,8 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1af42958208f49bb8f6064d536a28285" Id="d9f8b8e59a85425987bdce0ccbd94d56" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f15b15dc65284939a7893a456e9e161e" Id="1240204d33b8476da7534528752d45ff" />
 			<ComponentItemProperties AssociatedEnvoyId="e6d60081272a4ba891f28f90f148639b" Id="7b2accdf30947c88755b06a4bf2f0aa" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b753e4ae8f844b5ebe61bcca6ae8d29f" Id="4158dbfcd2424507b7b4e178db60e0d6" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="fbcf748a810b47d7aea25f88302ce13b" Id="6a21f01cb9554516aae2f318ea025009" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -50,6 +52,7 @@
 					<SourceFileReference Bindings="EnvoyManager" Id="671e23ea76da4125ae345d8d7ae200a1" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Page State.gtype" StoragePath="Data Types\Page State.gtype\Page State.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="68446a88e94f4ad38e21749c37e0a45e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="User Info JSON.gtype" StoragePath="Data Types\User Info JSON.gtype\User Info JSON.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="b23b2e584ffd4748bf0428c6cc8a4452" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Challenge JSON.gtype" StoragePath="Data Types\Challenge JSON.gtype\Challenge JSON.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="f666f7b6809a4afe8edec90c4ab3192f" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Submission JSON.gtype" StoragePath="Data Types\Submission JSON.gtype\Submission JSON.gtype" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8df07f73d71b480ba105bd1905a37da1" Name="Support">
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="de4ab2e4b0a641f1bdfcaa3b1c3d2aca" Name="Registration">
@@ -74,9 +77,14 @@
 					<FileReference Bindings=".js" Id="8d87025a4c2c423485e4e738e606ae34" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="utilities.js" StoragePath="Support\utilities.js" />
 					<SourceFileReference Bindings="EnvoyManager" Id="b9db2b5f2407461e8824efa670ff3ab9" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Common.jsli" StoragePath="Support\Common.jsli" />
 					<FileReference Bindings=".css" Id="4b1a54e05356404ca3c2041d4e6ea884" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="sol.css" StoragePath="Support\sol.css" />
-					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="92c712195e77433189059b07f3eaa3e2" Name="Submit">
-						<SourceFileReference Id="c1189f6d41c0465aacd4b1d867b21156" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CreateForm.gvi" StoragePath="Support\Submit\CreateForm.gvi" />
-						<SourceFileReference Id="184c8064983c48639184617bae026805" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UploadFile.gvi" StoragePath="Support\Submit\UploadFile.gvi" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="92c712195e77433189059b07f3eaa3e2" Name="Submissions">
+						<SourceFileReference Id="c1189f6d41c0465aacd4b1d867b21156" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CreateForm.gvi" StoragePath="Support\Submissions\CreateForm.gvi" />
+						<SourceFileReference Id="184c8064983c48639184617bae026805" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UploadFile.gvi" StoragePath="Support\Submissions\UploadFile.gvi" />
+						<SourceFileReference Id="685dab4d5cb643f6aab8234fceb27c69" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Submissions.gvi" StoragePath="Support\Submissions\GET Submissions.gvi" />
+						<SourceFileReference Id="f33fa9dd6e3b4c8d938553a0bffba4b5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Show Submissions.gvi" StoragePath="Support\Submissions\Show Submissions.gvi" />
+						<FileReference Bindings=".js" Id="b753e4ae8f844b5ebe61bcca6ae8d29f" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="submissions.js" StoragePath="Support\Submissions\submissions.js" />
+						<SourceFileReference Bindings="EnvoyManager" Id="91004bbf4c274e3d9950eed9b3113de3" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Submissions.jsli" StoragePath="Support\Submissions\Submissions.jsli" />
+						<FileReference Bindings=".css" Id="fbcf748a810b47d7aea25f88302ce13b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="submissions.css" StoragePath="Support\Submissions\submissions.css" />
 					</NameScopingEnvoy>
 					<FileReference Bindings=".js" Id="1af42958208f49bb8f6064d536a28285" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="pageTemplate.js" StoragePath="Support\pageTemplate.js" />
 					<FileReference Bindings=".ico" Id="f15b15dc65284939a7893a456e9e161e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="sol-logo.ico" StoragePath="Support\sol-logo.ico" />

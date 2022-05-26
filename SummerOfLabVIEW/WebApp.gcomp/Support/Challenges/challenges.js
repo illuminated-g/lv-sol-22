@@ -41,7 +41,7 @@
             if (canSubmit) {
                 elt = document.createElement("span");
                 elt.classList.add("chal-submit");
-                elt.innerHTML = '<a href="/submit.html?id=' + challenge.id + '">Submit</a>';
+                elt.innerHTML = '<a href="/submit.html?id=' + challenge.id + '">Submissions</a>';
                 chal.appendChild(elt);
             }
 

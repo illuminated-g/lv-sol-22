@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="317361DE4CA292E3CC6796B609B27E9B88BC4FB948643E7EA0379680AB1E92C6DC5E2A3E27E4C5BCD9C1574075D60822195F526DB697195CEA309A2E2C942184" Timestamp="1D87398659195C2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
+	</SourceModelFeatureSet>
+	<JavaScriptLibrary Id="4fce84e32cfe4398a484d759ffeda17a" xmlns="http://www.ni.com/JavaScriptLibrary">
+		<Icon Id="360eeeed30c74e7eb946c5f9e7284e8e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a0e1b0ec67d24a5d87fc3587c4417f3e" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="93e406595ef745fbad0284001591be14" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DependenciesTextBox Id="9b0e867882ae4ad9847194924d3805c4" ScriptAndLinkDependencies="&quot;\r\n&amp;lt;script src=&amp;quot;DataGridExtensions.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\r\n&quot;" />
+	</JavaScriptLibrary>
+	<EnvoyManagerFile Id="9ebf3763484a460d8ede23ace32e2b34" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="c8b07ce409824349a597c90edc367ca8" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="76b223bddcad441fa88f3b640f83108f" Name="DataGridExtensions.jsli" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="10d325a4ac714a5b83bd8672e08d2f78" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibraryEntryPoint" Name="ActivateColumn">
+				<JavaScriptLibraryEntryPoint Id="ce7ecc86c4954eb2a445d12afbc34adb" Symbol="GWebDataGrid.activateColumn" xmlns="http://www.ni.com/JavaScriptLibrary">
+					<Icon Id="f798ab26743c4711ab36b540fd56b3ea" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="bc321f11588d4c7f83a5072456d19626" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="3475e33a7eee47439733e326f2b017ac" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5001e62f53214c07806c5372535c72bd" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="390da76889724da3abfe970beb07eddf" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Id="403193bb9036455c9eb01c7b01501bfe" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]ActivateColumn" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="6" Id="8f9768abc17046dc97adfebdc8c0b527" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="40" Id="106c551e4c494e3f9d4d452e1568bb60" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal ListViewHotspot="0 65" Parameter="6b47c5b0521a4e05a92ee12e0f9f90d8" />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="e3743e84de514573921dee6705c5cf6c" />
+						<ConnectorPaneTerminal Hotspot="0 25" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="246454a4371b4b6c9ec8533e98e82607" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" />
+						<ConnectorPaneTerminal Hotspot="40 15" />
+						<ConnectorPaneTerminal Hotspot="40 25" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="ad75b1129bd24026a2306cce19958d02" />
+						<ConnectorPaneTerminal Hotspot="15 40" />
+						<ConnectorPaneTerminal Hotspot="25 40" />
+					</ConnectorPane>
+					<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="246454a4371b4b6c9ec8533e98e82607" IsError="True" Name="error in" />
+					<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="ad75b1129bd24026a2306cce19958d02" IsError="True" Name="error out" />
+					<JavaScriptLibraryParameter Id="22003ee7629f48a5a8927eedbd7b6b94" IsReturnParameter="True" Name="return">
+						<JavaScriptType ActualDataType="@761c1e6d42c140fea62c015adb1483c9" Id="ec6520d71a77470f898321a95bec67f5" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="734d472878e64c00887cb17df8d27ac4" Name="return out" Visible="False" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="60611aa3f4d24cdb88891e2b8d2ee9e2" Name="datagrid">
+						<JavaScriptType ActualDataType="@04818213b5764c2b947f8080aae7d37d" Id="9fab92a4a13d4b08a3cf446c89c84e8d" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" CallUsage="Required" Id="6b47c5b0521a4e05a92ee12e0f9f90d8" Name="datagrid" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="6b627ccd1e7147a893efc0f10d2c0657" Name="index">
+						<JavaScriptType ActualDataType="@fdec8c323a8742288aa4b6a6f12af133" Id="f632018b94f94295aa9b33bf4fc1f266" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="e3743e84de514573921dee6705c5cf6c" Name="index" />
+					</JavaScriptLibraryParameter>
+				</JavaScriptLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="960b537962ac41e6b77adef76ee0088a" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibraryEntryPoint" Name="GetByLabel">
+				<JavaScriptLibraryEntryPoint Id="5121f88986b8472fb4f48469b5596b4c" Symbol="GWebDataGrid.getByLabel" xmlns="http://www.ni.com/JavaScriptLibrary">
+					<Icon Id="5cd353f0ebe840f5a8651022b32d44d1" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="42c4e7d25f3f4fb7a760c12c1ac8d734" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="94e9ec02bad54947a22a54e4dbb9da0d" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="baf9d2b4729643b0bab06c98f7c10381" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="f176947f4f464e288801130890f162d0" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Id="35264ad9241f44ebadac04236f170d0c" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]GetByLabel" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="6" Id="3ba1f3e5a2f1491a9227eeda820d7017" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="40" Id="8d62e76ea6474f43994cf0bb83cb5fba" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="56ad799fb3e3450189569d8564a93891" />
+						<ConnectorPaneTerminal Hotspot="0 25" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="1ac9bbd0d94b43b69059d177d1e950d2" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="422d5933e10c42f08e8f21075c87cee9" />
+						<ConnectorPaneTerminal Hotspot="40 15" />
+						<ConnectorPaneTerminal Hotspot="40 25" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="74b91aa6a25b4be78c3294f8d7617d0a" />
+						<ConnectorPaneTerminal Hotspot="15 40" />
+						<ConnectorPaneTerminal Hotspot="25 40" />
+					</ConnectorPane>
+					<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="1ac9bbd0d94b43b69059d177d1e950d2" IsError="True" Name="error in" />
+					<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="74b91aa6a25b4be78c3294f8d7617d0a" IsError="True" Name="error out" />
+					<JavaScriptLibraryParameter Id="16094eba683a4dfb83db7f2fb72dde0c" IsReturnParameter="True" Name="DataGridJSRef">
+						<JavaScriptType ActualDataType="@04818213b5764c2b947f8080aae7d37d" Id="97b4fca195404a6593abc4d60907a48a" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Output" Id="422d5933e10c42f08e8f21075c87cee9" Name="DataGridJSRef" />
+					</JavaScriptLibraryParameter>
+					<JavaScriptLibraryParameter Id="a50a4f20a23f4a4f895b22a79348a78e" Name="label">
+						<JavaScriptType ActualDataType="@7a0d745212ea43e8a195a3e0a8f4fb9a" Id="3bb0095a5be04c8d8d09a2398b69be25" />
+						<JavaScriptLibraryDiagramParameter CallDirection="Input" Id="56ad799fb3e3450189569d8564a93891" Name="label" />
+					</JavaScriptLibraryParameter>
+				</JavaScriptLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="761c1e6d42c140fea62c015adb1483c9">
+			<Attributed AttributedType="Void">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="04818213b5764c2b947f8080aae7d37d">
+			<Attributed AttributedType="@d5cc76c39163420cb65dd0e1a0e0eb64">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fdec8c323a8742288aa4b6a6f12af133">
+			<Attributed AttributedType="Int32">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="7a0d745212ea43e8a195a3e0a8f4fb9a">
+			<Attributed AttributedType="String">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.JavaScriptType" Value="[string]" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d5cc76c39163420cb65dd0e1a0e0eb64">
+			<Composite Id="1" Name="NI.JavaScriptReference" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

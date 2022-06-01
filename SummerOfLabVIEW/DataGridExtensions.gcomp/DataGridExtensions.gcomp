@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="26FB2E14475F4814213468E3E1F82AC2BD08067E2160C3B6F0600087BE76B199A4C94C49CD8560D1165D2D1FF686E84BCC157EA0D97126FFD05C388A7E9BB241" Timestamp="1D87398264E5202" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="5b3a5ecbee344369b3b7e05b635c5cbe" RootNamespaceId="66a3324ec55f451e9f6f98b2eaaf83da" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3fe4a633e3fd4e79bffadc933f2f0313" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="2f271c18b4946fd9ba9068cf6060402" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="e41baf2d2c9346bb917e368a7c909ec9" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="2558f903c86c4ff4b014c836a8c0ec09" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="G Library" Id="2a483e0c1cbf41738c0256dfc75d99bc" Name="Configuration1">
+			<CompilerSymbolTable Id="a478e4fd636a439ea857e0b778bd92f2" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="df83827f42174e88b32f09ea5333417f" />
+			<ComponentItemProperties AssociatedEnvoyId="3a715b51191445ffa4f540879c0a1dde" Exported="True" Id="f65e88b772cf4d4e9071856f1b09ffa7" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cdd04d46380d41f69b32153cd3bcb123" Id="c4336bac8a8648699ada7109aca6300b" />
+			<ComponentItemProperties AssociatedEnvoyId="f2c2675634b34d48a692f2d93d31d188" Exported="True" Id="49da7d1b775344ae9f10920660f92b73" />
+			<ComponentItemProperties AssociatedEnvoyId="8c514880d2d74eefb498bc3c6388788a" Exported="True" Id="95b450d45934400e8cd31c85a5bcff44" />
+			<ComponentItemProperties AssociatedEnvoyId="5f0d59cd9e9443d7aed3fe4f8f04c808" Exported="True" Id="65897ba5eeb24dcd9d7a57815b7fbf56" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="a50b6defa884b09ae1240444a59f5b0" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="6a607b7e0fb44b886c037b85287e2d0" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="f902c4d164b548b4815907e4ac3432f7" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="66a3324ec55f451e9f6f98b2eaaf83da" Name="DataGridExtensions">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9794d6c0417c4a649273ebe9f340a52e" Name="Support">
+					<SourceFileReference Bindings="EnvoyManager" Id="3a715b51191445ffa4f540879c0a1dde" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="DataGridExtensions.jsli" StoragePath="Support\DataGridExtensions.jsli" />
+					<FileReference Bindings=".js" Id="cdd04d46380d41f69b32153cd3bcb123" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="DataGridExtensions.js" StoragePath="Support\DataGridExtensions.js" />
+				</NameScopingEnvoy>
+				<SourceFileReference Id="f2c2675634b34d48a692f2d93d31d188" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Activate Column.gvi" StoragePath="Activate Column.gvi" />
+				<SourceFileReference Id="8c514880d2d74eefb498bc3c6388788a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RefByLabel.gvi" StoragePath="RefByLabel.gvi" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4776f693700040788ba119991caac6a4" Name="Types">
+					<SourceFileReference Bindings="EnvoyManager" Id="5f0d59cd9e9443d7aed3fe4f8f04c808" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="DataGridJSRef.gtype" StoragePath="Types\DataGridJSRef.gtype\DataGridJSRef.gtype" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="ec0ecc87adcd4b93ba289b11017eee21" Name="DataGridExtensions.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="2a483e0c1cbf41738c0256dfc75d99bc" Id="d27557cd09eb472e823a21c8a9815803" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

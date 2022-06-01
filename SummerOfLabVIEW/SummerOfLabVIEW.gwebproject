@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="313C88B3E1F3F8EE4E048C133314DF3C72B1304F1282A0602CC676EBA99395277C31C493756175BF776E31FCD05A81AF78578A4D9AFCB2D9978BF77D38004136" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CC10D46B0CB2AF62056F53861435B509695F7EB70D79F0A719F0931BD7C4F185F48B216687F4A73E0C013B9566C17F56FC8434755B153FCADA2FDF42AE99B7D6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -82,6 +82,9 @@
 						<ComponentConfigurationReferenceDependencySource Id="9a1322c3d44947eaa1c899c01a649ad2" Target="URL.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="c414e3f4ac5147028ed23c9ff5e3f3a7" Target="InputElement.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="bc06551989de4c45bad354d5b159bff9" Target="FormData.gcomp::Configuration1" />
+						<ComponentConfigurationReferenceDependencySource Id="d457dbd6d3dc4d129dae0f0a55646598" Target="DOM.gcomp::Configuration1" />
+						<ComponentConfigurationReferenceDependencySource Id="8c5344524004437965466eb02eca485" Target="DebugTools.gcomp::Configuration1" />
+						<ComponentConfigurationReferenceDependencySource Id="e6e013e8cbf6428ca4f780e87eddce3a" Target="DataGridExtensions.gcomp::Configuration1" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -126,6 +129,9 @@
 					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="8c746fb9aac2467993ac80b8314c681f" ModelDefinitionType="ComponentDefinition" Name="SweetAlert.gcomp" StoragePath="SweetAlert.gcomp\SweetAlert.gcomp" />
 					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="46d22b10a6954e0ab6a59c1b1315d10f" ModelDefinitionType="ComponentDefinition" Name="InputElement.gcomp" StoragePath="InputElement.gcomp\InputElement.gcomp" />
 					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="faf6d6c5543c47d9991335862bcf39a6" ModelDefinitionType="ComponentDefinition" Name="FormData.gcomp" StoragePath="FormData.gcomp\FormData.gcomp" />
+					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="ddff3f2fc49d46dc922222a7749dcfe8" ModelDefinitionType="ComponentDefinition" Name="DOM.gcomp" StoragePath="DOM.gcomp\DOM.gcomp" />
+					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="aee1202068c4791b820f581c7238380" ModelDefinitionType="ComponentDefinition" Name="DebugTools.gcomp" StoragePath="DebugTools.gcomp\DebugTools.gcomp" />
+					<SourceFileReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,EnvoyManager" Id="e7c574b3fd6f4d6ba46d871d317b4ac0" ModelDefinitionType="ComponentDefinition" Name="DataGridExtensions.gcomp" StoragePath="DataGridExtensions.gcomp\DataGridExtensions.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>

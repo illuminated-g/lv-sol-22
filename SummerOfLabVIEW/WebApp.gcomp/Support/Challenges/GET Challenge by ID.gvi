@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1534C5D3BAC950036706E11E7E04B85E9ADFB1C8D0DE3E9E1DA9D6F688FAC9DD5CD266F48C37CDBEA008A8482401A723336AA7E64B5736C5D72B771FAE8D14EF" Timestamp="1D86E5F54731BF6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C34C87BCA7B4155EAA61CE38C27B1B4FB75E8B101DBD2900D78C09E576E19891CB18AACBF2C1AB65717E74877B440BFF00A0ED98FFFD0428CAC80C19C9D72175" Timestamp="1D8751A44513015" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -45,8 +45,8 @@
 			</NodeLabel>
 			<NumberToDecimalString Bounds="120 200 40 40" Id="a6b76e25e79c4372bc0c4893bb93c764" />
 			<Wire Id="1694e3ce6b1c4b1b854b6dffa51acc80" Joints="N(862db14dcad04740b897881c40c8b923:Value)|(110,205) N(a6b76e25e79c4372bc0c4893bb93c764:number)|(120,205)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="55 170 105 15" DataType="String" Id="d7efbaf57b7d40938865ae5a12a6f1fa" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>/challenges?id=</p.Data>
+			<Literal Bounds="75 170 85 15" DataType="String" Id="d7efbaf57b7d40938865ae5a12a6f1fa" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>/challenges/</p.Data>
 				<StringBehavior TextDisplayMode="Default" />
 			</Literal>
 			<ConcatenateStrings Bounds="180 170 40 20" Id="8f2c9e252072402e8d9b55a2a5fff053" Terminals="outString=a9fc0277db14432d829f7b4b5186197b, c0t0v=e4e119bbe8c4471e96251951c5ad5007, c1t0v=2240ed97b3c847109029507e231607a0" />
@@ -134,7 +134,7 @@
 						</NodeLabel>
 						<DockedConstantFacade UndockedSize="86 190" />
 					</ClusterLiteral>
-					<Wire Facade="WireInvisibleFacade" Id="25f13b05ead84a31a905b9282779efd3" Joints="N(6215bab894c645e9a564366344127afb:Out)|(287,51) v(9) h(-79) v(-10) N(9465a8d63bf94af286169c8005c7fa1f:c74ec9f3ca864375ab981b8a0a0d7990)|(213,50)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Facade="WireInvisibleFacade" Id="25f13b05ead84a31a905b9282779efd3" Joints="N(6215bab894c645e9a564366344127afb:Out)|(213,51) v(9) h(-79) v(-10) N(9465a8d63bf94af286169c8005c7fa1f:c74ec9f3ca864375ab981b8a0a0d7990)|(213,50)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="130 95 25 15" DataType="Boolean" Id="8c4393ffae43449689c32d16d1cc113e" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>False</p.Data>
 						<BooleanBehavior />

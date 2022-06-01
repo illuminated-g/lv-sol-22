@@ -33,6 +33,8 @@
 	<Property Name="Serialized ACL" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Controllers" Type="Folder">
+		<Item Name="Admin Info.lvclass" Type="LVClass" URL="../Admin Info/Admin Info.lvclass"/>
+		<Item Name="Approval.lvclass" Type="LVClass" URL="../Approval/Approval.lvclass"/>
 		<Item Name="Challenges.lvclass" Type="LVClass" URL="../Challenges/Challenges.lvclass"/>
 		<Item Name="CSRF.lvclass" Type="LVClass" URL="../CSRF/CSRF.lvclass"/>
 		<Item Name="Registration.lvclass" Type="LVClass" URL="../Registration/Registration.lvclass"/>
@@ -41,8 +43,10 @@
 		<Item Name="User Submissions API.lvclass" Type="LVClass" URL="../User Submissions API/User Submissions API.lvclass"/>
 	</Item>
 	<Item Name="Data Types" Type="Folder">
+		<Item Name="Admin Info JSON.ctl" Type="VI" URL="../Data Types/Admin Info JSON.ctl"/>
 		<Item Name="Challenge JSON.ctl" Type="VI" URL="../Data Types/Challenge JSON.ctl"/>
 		<Item Name="Login JSON.ctl" Type="VI" URL="../Data Types/Login JSON.ctl"/>
+		<Item Name="Pending Submission JSON.ctl" Type="VI" URL="../Data Types/Pending Submission JSON.ctl"/>
 		<Item Name="Registration JSON.ctl" Type="VI" URL="../Data Types/Registration JSON.ctl"/>
 		<Item Name="Submission JSON.ctl" Type="VI" URL="../Data Types/Submission JSON.ctl"/>
 		<Item Name="User Info JSON.ctl" Type="VI" URL="../Data Types/User Info JSON.ctl"/>
@@ -61,5 +65,7 @@
 		<Item Name="SOL Auth.lvclass" Type="LVClass" URL="../SOL Auth/SOL Auth.lvclass"/>
 		<Item Name="SQLite.lvclass" Type="LVClass" URL="../SQLite/SQLite.lvclass"/>
 	</Item>
+	<Item Name="Scorer.lvclass" Type="LVClass" URL="../Scorer/Scorer.lvclass"/>
+	<Item Name="SOL-Config.lvclass" Type="LVClass" URL="../SOL-Config/SOL-Config.lvclass"/>
 	<Item Name="SOL-Server.lvclass" Type="LVClass" URL="../SOL-Server/SOL-Server.lvclass"/>
 </Library>

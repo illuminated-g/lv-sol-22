@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="68C519B48F3C32257796B5FACBD4AF22AC03DFECD42A59DE40182A0BA0DD6B9AF5B7833C15461DF7415F7095FA888B21D0A70B6BFFC6AD8BCA8F6F420DEB511D" Timestamp="1D870AC70E48A33" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="96D55A98C0744B4CE56BA97BDBB2F97F0ABB4EED3A8BAA59117E05506498B63A203BDFEB08D5ADA1EA95E04E48DA81872073907FEFCB3506BDC6573A821DBD9D" Timestamp="1D8748A3E6F5E30" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -204,6 +204,64 @@
 			<NodeLabel AttachedTo="5b832d5c08414cde8933831f1c915432" Bounds="320 -13 30 15" Id="725c4f0207c6440f8ccf47edd12cb466" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>className</p.Text>
 			</NodeLabel>
+			<MethodCall Bounds="645 -5 40 40" Id="68257a8ba7d043aca7180a9b3a2ac48a" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Auth\\GET User Info.gvi&quot;" Signature="@d73b8562004848d7b59fd66208b0de09" Target="WebApp::Support::Auth::GET User Info.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="R0" Desc="User Info" />
+						<Parameter Id="R1" Desc="Logged In" />
+						<Parameter Id="R2" Desc="User JSON" />
+						<Parameter Id="R3" Desc="Error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@e771fc6340944a4bbbdeee848d5a732b" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="715 5 40 40" Id="c4ad737a87684e03a1296a9168325d33" ResolveFailedHint="SetUser" Signature="@149a6e620db44a0b8912bd2c0d7a0e0d" Target="WebApp::Support::Common.jsli::SetUser" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="loggedIn" />
+						<Parameter Id="L1" Desc="userJSON" />
+						<Parameter Id="L3" Desc="error in" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="Boolean" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="9ef0e2015cee40d3b13f350adfd91230" Joints="N(68257a8ba7d043aca7180a9b3a2ac48a:R1)|(685,10) h(15) B(1) N(c4ad737a87684e03a1296a9168325d33:L0)|(715,10) B(1) v(-25) N(cd90d83bc23e4d99b414a851fa141699:e63283e15df746bba721b3866e370356)|(766,-15)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="40bae1dd266147c7b8025ae7606bda96" Joints="N(68257a8ba7d043aca7180a9b3a2ac48a:R2)|(685,20) N(c4ad737a87684e03a1296a9168325d33:L1)|(715,20)" xmlns="http://www.ni.com/PlatformFramework" />
+			<CaseStructure Bounds="770 -35 140 90" Default="f7a036f49f7a4f55816fcdd9d66f188c" Id="e63283e15df746bba721b3866e370356" Selected="16696ff274364cfebc06eb74466796f6" UserSelectorBounds="26 0 88 17">
+				<CaseStructure.Case Bounds="5 5 130 80" Id="f7a036f49f7a4f55816fcdd9d66f188c" Pattern="False" />
+				<CaseStructure.Case Bounds="5 5 130 80" Id="16696ff274364cfebc06eb74466796f6" Pattern="True">
+					<MethodCall Bounds="70 25 40 40" Id="46499b5f8d1e4e3cae1d9aa01c6285c5" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\URL.gcomp\\Window Location\\Window Location Set.gvi&quot;" Signature="@a53020a954444dc2acecc7a21cab204d" Target="URL::Window Location::Window Location Set.gvi" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L0" Desc="url" />
+								<Parameter Id="L3" Desc="error in" />
+								<Parameter Id="T0" Desc="window location set action" />
+								<Parameter Id="R3" Desc="error out" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@fe52de9511df442f847f5c41956ea456" Direction="Input" Hotspot="15 0" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+					<Literal Bounds="15 25 40 15" DataType="String" Id="6ee31181bdb54b90a78cabc20a50764c" Label="cc73e38141924d4e8c358bd3378ae435" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>/</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<NodeLabel AttachedTo="6ee31181bdb54b90a78cabc20a50764c" Bounds="15 7 30 15" Id="cc73e38141924d4e8c358bd3378ae435" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>url</p.Text>
+					</NodeLabel>
+					<Wire Id="7a268620199c4fdca5f9c3031a532a10" Joints="N(6ee31181bdb54b90a78cabc20a50764c:Out)|(55,30) N(46499b5f8d1e4e3cae1d9aa01c6285c5:L0)|(70,30)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 15 13 10" Docking="Left" Id="cd90d83bc23e4d99b414a851fa141699" Terminals="e63283e15df746bba721b3866e370356=9ef0e2015cee40d3b13f350adfd91230, f7a036f49f7a4f55816fcdd9d66f188c, 16696ff274364cfebc06eb74466796f6" />
+			</CaseStructure>
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="fb0561980814843b47f45db5a8e0f1b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4467c869225148bfabb0bfbafd20b6f1" Label="[UIModel]f93c89136eea42d9a052f53a9794656e" Left="[float]116" TabIndex="[int]0" Text="{DataItemBinding Id=ed013a1405654b60a4af1e1c693a3c9f}" Top="[float]196" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]312" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -286,6 +344,45 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
+		<p.TypeReference TypeId="d73b8562004848d7b59fd66208b0de09">
+			<Attributed AttributedType="@bae70e88bb6543fcba4e1c442d93b629">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e771fc6340944a4bbbdeee848d5a732b">
+			<Attributed AttributedType="@244992ad22244ff8823c9c3bd09742c7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::Data Types" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="149a6e620db44a0b8912bd2c0d7a0e0d">
+			<Attributed AttributedType="@a6c593ae3c89462e8d9253b879a347b0">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ParameterCallIndex" Value="[ParameterCallIndexFields]0|1|2|0" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a53020a954444dc2acecc7a21cab204d">
+			<Attributed AttributedType="@cf6411ed82c641ef85b1c5dbab34211e">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fe52de9511df442f847f5c41956ea456">
+			<Attributed AttributedType="@4fa915ad93d94b77b2f66b9a5e4a8464">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]URL::Support" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
 		<p.TypeReference TypeId="1a2d3dd6a157452ebd2bacd2044c279c">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Make CSRF Token.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
@@ -349,6 +446,90 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
+		<p.TypeReference TypeId="bae70e88bb6543fcba4e1c442d93b629">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="GET User Info.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@3cec1a4795e543218d0db9dcd821d0f6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]User Info" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@c96c792c4af84728a1da5b349defff10">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Logged In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@7dc14a515679452895509c4cde8fb26c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]User JSON" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@53891f63cfae4b43ac656ee8e64de405">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="244992ad22244ff8823c9c3bd09742c7">
+			<Typedef TypedefName="User Info JSON.gtype" UnderlyingType="@801f15bb597c4727b6342644094c4603" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a6c593ae3c89462e8d9253b879a347b0">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="SetUser" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@15a98647d00c421cb4b0f57e7c788529">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]loggedIn" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@069cf77559a645a087566635e390a7da">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]userJSON" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@7ebe9db9b81b4243a45350ff812f4aea">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@53891f63cfae4b43ac656ee8e64de405">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cf6411ed82c641ef85b1c5dbab34211e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Window Location Set.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@005614e6871c4166a75776a75d9e9d8b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]url" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@7ebe9db9b81b4243a45350ff812f4aea">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@0243fc159ed1421483b9ce320b1b96cb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]window location set action" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@53891f63cfae4b43ac656ee8e64de405">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4fa915ad93d94b77b2f66b9a5e4a8464">
+			<Typedef TypedefName="window location set action.gtype" UnderlyingType="@cbcbf50991674c63a403288931e6c643" />
+		</p.TypeReference>
 		<p.TypeReference TypeId="7d6b517914a14cdf91f9629117944385">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
 		</p.TypeReference>
@@ -382,6 +563,48 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="7ebe9db9b81b4243a45350ff812f4aea">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3cec1a4795e543218d0db9dcd821d0f6">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@e771fc6340944a4bbbdeee848d5a732b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c96c792c4af84728a1da5b349defff10">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="7dc14a515679452895509c4cde8fb26c">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="801f15bb597c4727b6342644094c4603">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="email" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="first_name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="last_name" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="department" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="admin" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="15a98647d00c421cb4b0f57e7c788529">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="069cf77559a645a087566635e390a7da">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="005614e6871c4166a75776a75d9e9d8b">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0243fc159ed1421483b9ce320b1b96cb">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="@fe52de9511df442f847f5c41956ea456" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cbcbf50991674c63a403288931e6c643">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="set" />
+					<EnumerationMember Value="1" Name="push" />
+					<EnumerationMember Value="2" Name="replace" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
@@ -435,6 +658,67 @@
 							</IconTemplate>
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][JSLI]&lt;Common.jsli&gt;" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebApp::Support::Auth::GET User Info.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]GET User Info" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="6.75" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="WebApp::Support::Common.jsli::SetUser">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]SetUser" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="7.5" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][JSLI]&lt;Common.jsli&gt;" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="URL::Window Location::Window Location Set.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image BaseName="[string]Image" Height="[float]14" Left="[float]20" MinWidth="[float]17" Source="[EmbeddedDrawingImage]&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; enable-background=&quot;new 0 0 24 24&quot; height=&quot;24px&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;24px&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;rect fill=&quot;none&quot; height=&quot;24&quot; width=&quot;24&quot;/&gt;&lt;rect fill=&quot;none&quot; height=&quot;24&quot; width=&quot;24&quot;/&gt;&lt;rect fill=&quot;none&quot; height=&quot;24&quot; width=&quot;24&quot;/&gt;&lt;/g&gt;&lt;g&gt;&lt;g/&gt;&lt;path d=&quot;M20,4H4C2.9,4,2.01,4.9,2.01,6L2,18c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M4,9h10.5v3.5H4V9z M4,14.5 h10.5V18L4,18V14.5z M20,18l-3.5,0V9H20V18z&quot;/&gt;&lt;/g&gt;&lt;/svg&gt;" Stretch="[SMStretch]Uniform" Top="[float]24" Width="[float]17" />
+							<Path Data="[PathGeometry]M 10.9818907,0.131235301 C 11.3623934,-0.212864906 12.1944761,0.115537301 13.0896692,1.15537298 C 13.9860868,2.19458079 14.2005415,3.08183193 13.8206511,3.42593193 L 12.2128572,4.88145113 L 9.37471008,1.58549833 L 10.9818907,0.131235301 Z M 2.37063742,11.4827757 L 5.83621645,9.81313515 L 4.11200523,10.1170483 L 4.1873703,8.37268639 L 3.62672615,8.67094898 L 3.80931854,7.45969057 L 1.76281321,10.7769928 L 2.37063742,11.4827757 Z M 6.24245405,10.2840757 L 0,12.9998293 L 3.40308094,6.98937845 L 7.07759953,3.66391397 L 9.9163599,6.95861053 L 6.24245405,10.2840757 Z M 11.2508774,5.66132784 L 8.412117,2.36663103 C 8.20501518,2.12613726 8.67068768,1.71798944 8.87104893,1.95031977 L 11.7104225,5.24564457 C 11.9150724,5.48362589 11.4494019,5.89177465 11.2508774,5.66132784 M 10.3379154,6.49897337 L 7.49915504,3.20427632 C 7.2920537,2.96378255 7.75711298,2.55563498 7.95808697,2.78922105 L 10.7968483,6.08328962 C 11.0021105,6.3212719 10.5358257,6.72941971 10.3379154,6.49897337" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]13" Left="[float]7" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]15" Width="[float]14" />
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]URL.gcomp" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4b92db" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#ff4b92db" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4b92db" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Text Foreground="[SMColor]#ffebebeb" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]8" Text="[string]URL://" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]3" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]24">
+									<FontSetting FontFamily="Arial" FontSize="6" FontStyle="Bold" />
+								</Text>
+							</IconTemplate>
 						</IconPanel>
 					</Icon>
 				</MergeItem>

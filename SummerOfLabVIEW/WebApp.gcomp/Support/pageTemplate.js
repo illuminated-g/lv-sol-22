@@ -91,10 +91,14 @@
 
     const setUser = function(loggedIn, userJSON) {
         if (userJSON != "") {
-            user = JSON.parse(userJSON);
+            let user = JSON.parse(userJSON);
 
             greeting.innerText = 'Welcome, ' + user.first_name + '!';
             logout.style.display = '';
+
+            if (user.admin) {
+                addNavLink("/admin.html", "Admin");
+            }
         } else {
             login.style.display = '';
             signup.style.display = '';

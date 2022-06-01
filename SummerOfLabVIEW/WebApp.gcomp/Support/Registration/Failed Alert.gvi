@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F94036183AA58CBAC15C19173D10DEA57CF3A3967D6A78138488166AEAFB44B011FFD93F70BB1191F49763715BDB6C6D2EC98DDB498B98857BFC51511DC93597" Timestamp="1D8597B4099401A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7EE89AC3B679D7D2ED403CA3945368864F744E8EEEF7E7F945C89D8A89B289EEA5F71402A7EAFDF82602D6F66D68ACE1F8B6C5C2BBB991BF2AC0CF07E4707541" Timestamp="1D874AD447CC115" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -99,7 +99,7 @@
 			<Wire Id="c959abde082c474eb1bbf63e1a7da52d" Joints="N(76e0c99206ce4a468d735b84e34d2a71:Out)|(585,190) N(4a41ffa512384f95849b682e58cd4214:L1)|(640,190)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="15d42fa4d55a48759206d8c8a3b6025a" Joints="N(ef3b6f3b0e614db583810e3bb3fce9c9:outString)|(605,290) h(5) v(-90) N(4a41ffa512384f95849b682e58cd4214:L2)|(640,200)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Literal Bounds="245 375 395 105" DataType="String" Id="ae113d22426c4a3bb2d1675f55abd3f9" Label="233576459e1d44058315bdec581c4b6b" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>If you need assistance with registration, head over to our &lt;a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDUxNDYzNzYxOTIifQ/all" target="_blank"&gt;Yammer (New Tab)&lt;/a&gt; to let us know about the issue or reach out to Derrick Bommarito on Teams.</p.Data>
+				<p.Data>&lt;span&gt;If you need assistance with registration, head over to our &lt;a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDUxNDYzNzYxOTIifQ/all" target="_blank"&gt;Yammer&lt;/a&gt; to let us know about the issue or reach out to Derrick Bommarito on Teams.&lt;/span&gt;</p.Data>
 				<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 			</Literal>
 			<NodeLabel AttachedTo="ae113d22426c4a3bb2d1675f55abd3f9" Bounds="245 357 30 15" Id="233576459e1d44058315bdec581c4b6b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">

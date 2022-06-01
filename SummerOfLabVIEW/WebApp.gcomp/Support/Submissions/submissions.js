@@ -8,6 +8,10 @@
         if (submissions.length == 0) {
             placeholder.innerText = "No entries submitted yet for this challenge."
         } else {
+            while (placeholder.firstChild) {
+                placeholder.removeChild(placeholder.firstChild);
+            }
+            
             var subs = document.createElement('div');
             subs.classList.add('sol-subs');
 

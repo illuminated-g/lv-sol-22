@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A211252EB20A4825ACC09B5B33DD515EE2F0145C395FB09393E758481031A7D9611BBB2B9022682CFA130719D6F0BEA3D72B90B16037685B9CB9F3505FD2E6D8" Timestamp="1D870AA1EB48C4A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1E7DA65E0E3F21B2F75B914D0685BE7292A9B3C9DFD96530F0E77D7B1D58BB328AAAA6CE94E7A13CF8C939C7344FA212DD3059733B354E24084C1F218E74AFCA" Timestamp="1D8749830B80F39" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
@@ -32,6 +32,7 @@
 			<ComponentItemProperties AssociatedEnvoyId="e6d60081272a4ba891f28f90f148639b" Id="7b2accdf30947c88755b06a4bf2f0aa" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b753e4ae8f844b5ebe61bcca6ae8d29f" Id="4158dbfcd2424507b7b4e178db60e0d6" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="fbcf748a810b47d7aea25f88302ce13b" Id="6a21f01cb9554516aae2f318ea025009" />
+			<ComponentItemProperties AssociatedEnvoyId="b16f860d672d4c1185e256c43509ccf1" Id="6b33f6e6e84c4d83a7f27abec08ee455" TopLevel="True" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -53,6 +54,8 @@
 					<SourceFileReference Bindings="EnvoyManager" Id="68446a88e94f4ad38e21749c37e0a45e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="User Info JSON.gtype" StoragePath="Data Types\User Info JSON.gtype\User Info JSON.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="b23b2e584ffd4748bf0428c6cc8a4452" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Challenge JSON.gtype" StoragePath="Data Types\Challenge JSON.gtype\Challenge JSON.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="f666f7b6809a4afe8edec90c4ab3192f" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Submission JSON.gtype" StoragePath="Data Types\Submission JSON.gtype\Submission JSON.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b7309900ee7a4287b7682b057b3f2914" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Pending Submission JSON.gtype" StoragePath="Data Types\Pending Submission JSON.gtype\Pending Submission JSON.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b315e2d14ed7438d8709a4970b003620" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Admin Info JSON.gtype" StoragePath="Data Types\Admin Info JSON.gtype\Admin Info JSON.gtype" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8df07f73d71b480ba105bd1905a37da1" Name="Support">
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="de4ab2e4b0a641f1bdfcaa3b1c3d2aca" Name="Registration">
@@ -88,8 +91,15 @@
 					</NameScopingEnvoy>
 					<FileReference Bindings=".js" Id="1af42958208f49bb8f6064d536a28285" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="pageTemplate.js" StoragePath="Support\pageTemplate.js" />
 					<FileReference Bindings=".ico" Id="f15b15dc65284939a7893a456e9e161e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="sol-logo.ico" StoragePath="Support\sol-logo.ico" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c38a8434096f4eacab650d5e19af2a6c" Name="Admin">
+						<SourceFileReference Id="236b059a0c2c4e24a6ea6fec42c028e5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="AddPendingSubmission.gvi" StoragePath="Support\Admin\AddPendingSubmission.gvi" />
+						<SourceFileReference Id="7aed3f57926443958c1b0b0b21b8dde6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Approve.gvi" StoragePath="Support\Admin\Approve.gvi" />
+						<SourceFileReference Id="eefaad75d6a44c2fbf640ac560e0fd12" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Admin Info.gvi" StoragePath="Support\Admin\GET Admin Info.gvi" />
+						<SourceFileReference Id="e65d31faf565400c88c2274f13b49859" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Populate Admin.gvi" StoragePath="Support\Admin\Populate Admin.gvi" />
+					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 				<SourceFileReference Id="e6d60081272a4ba891f28f90f148639b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="help.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="help.gviweb" />
+				<SourceFileReference Id="b16f860d672d4c1185e256c43509ccf1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="admin.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="admin.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="5b980660bf784182a4f2b622e53eee98" Name="WebApp.gcomp" NameTracksFileName="True">

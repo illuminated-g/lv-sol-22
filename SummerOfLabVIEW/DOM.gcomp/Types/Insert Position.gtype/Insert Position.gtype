@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E29F524EDEDB28F089E0BEDFB4734667F27D6CF5A2738FC9B89CB1447BCD47F20175601EA92FF1C4322BA458B53826E79CCDF5096520275E133C56861678989E" Timestamp="1D8718826FD424F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.3.0.49613" Name="G Web Development Software" Version="22.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@82ee183b376b435f9ff52533e47c450e" Id="acf1372e43a44aeb949decca9a56ac49" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="8926374284b342cc8abe6887e5a93f26" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="4f7b70252a784ba8b652fccc527dcaab" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="558543f7790740b699dd402c9b9646ba" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@82ee183b376b435f9ff52533e47c450e" Id="f35912fb19634898aae012ebb211ebe1" Name="Insert Position">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="b507097247c24b86a0c4eac8e0969a36" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="93a9f0b311734bd7b7389df817e3cf01" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="be0fcf60990b4e558b576d1f1a39d104" Name="Insert Position.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="3c162664946140658d150abeaa4d2460" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="1d64f644a9224ff990607bcefe42d68f" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="bf099674281042fa98872fa5e3be8cca" IsTypeAheadEnabled="[bool]True" Label="[UIModel]234893c7bc2e478ea02bcf0aa915b93e" Left="[float]77" TabIndex="[int]0" Top="[float]74" Value="{DataItemBinding Id=f35912fb19634898aae012ebb211ebe1}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]beforebegin" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]afterbegin" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]beforeend" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]afterend" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="234893c7bc2e478ea02bcf0aa915b93e" LabelOwner="[UIModel]bf099674281042fa98872fa5e3be8cca" Left="[float]77" Text="[string]Insert Position" Top="[float]54" Width="[float]75" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="82ee183b376b435f9ff52533e47c450e">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="beforebegin" />
+					<EnumerationMember Value="1" Name="afterbegin" />
+					<EnumerationMember Value="2" Name="beforeend" />
+					<EnumerationMember Value="3" Name="afterend" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C64C68E3F8D8A98AC0AC683C9AFFE876B1C4394EAE43D51D586CF8CF9358BC397AA2027F43196EA2F003E73A405B30F5C665D1B0749FF749C00CCC3048F130ED" Timestamp="1D8592000AA799F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="92AC29F53FB3BBFD71DA70C9E67FF13EEDF628721B34AABA22A6387EAFE536929687489C6032298ABE1E10A4F766146277E5DABB80C027D16871A50A3FBE438C" Timestamp="1D874ADC6C4AC59" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -64,7 +64,7 @@
 			<NodeLabel AttachedTo="4c8363535e854d40a68a2f7a15b34631" Bounds="285 177 30 15" Id="eafe6cbd970e40088f8342b570609cf4" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>url</p.Text>
 			</NodeLabel>
-			<CaseStructure Bounds="430 100 605 290" DataType="Error" Default="3e33730faf60499fa661f065832e1ddf" Id="fe38fea5869d4dffbc19d0ad1cb3d4cd" Selected="3e33730faf60499fa661f065832e1ddf" UserSelectorBounds="250 0 106 17">
+			<CaseStructure Bounds="430 100 605 290" DataType="Error" Default="3e33730faf60499fa661f065832e1ddf" Id="fe38fea5869d4dffbc19d0ad1cb3d4cd" Selected="aaa446b8f0a84853b190c318950f09a0" UserSelectorBounds="250 0 106 17">
 				<CaseStructure.Case Bounds="5 5 595 280" Id="3e33730faf60499fa661f065832e1ddf" Pattern="Error">
 					<MethodCall Bounds="360 120 40 40" Id="2811320698424fbfa2412fce2f63a18a" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\SweetAlert.gcomp\\Advanced\\Configure\\Base Options.gvi&quot;" Signature="@807e935549a843129bb013122e1def87" Target="SweetAlert::Advanced::Configure::Base Options.gvi" xmlns="http://www.ni.com/MocCommon">
 						<p.MethodDeclaration>
@@ -400,7 +400,7 @@
 				<CaseStructure.Tunnel Bounds="-4 195 13 10" Docking="Left" Id="61e5a08ba6e44d96bfc7f7ec31d058d2" Terminals="fe38fea5869d4dffbc19d0ad1cb3d4cd=9c891f14049b4eebaaf79a97a8bcf9f5, 3e33730faf60499fa661f065832e1ddf=f842ba9e5cc44818971519d0709fb94e, aaa446b8f0a84853b190c318950f09a0=bfb86e9e44804b548ccf8fe06fc82868" />
 			</CaseStructure>
 			<Literal Bounds="20 295 395 75" DataType="String" Id="1b636a743a0d4b89929aa24854fa2149" Label="88c6df0ffa9f41019ce8659cdffb959a" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>If you need assistance with login, head over to our &lt;a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDUxNDYzNzYxOTIifQ/all" target="_blank"&gt;Yammer (New Tab)&lt;/a&gt; to let us know about the issue or reach out to Derrick Bommarito on Teams.</p.Data>
+				<p.Data>&lt;span&gt;If you need assistance with login, head over to our &lt;a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDUxNDYzNzYxOTIifQ/all" target="_blank"&gt;Yammer&lt;/a&gt; to let us know about the issue or reach out to Derrick Bommarito on Teams.&lt;/span&gt;</p.Data>
 				<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 			</Literal>
 			<NodeLabel AttachedTo="1b636a743a0d4b89929aa24854fa2149" Bounds="20 277 30 15" Id="88c6df0ffa9f41019ce8659cdffb959a" Visible="False" xmlns="http://www.ni.com/PlatformFramework">

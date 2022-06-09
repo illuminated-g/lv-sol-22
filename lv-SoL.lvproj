@@ -112,7 +112,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{310ADB86-E5C7-4D15-BFF1-8D29461C527F}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SummerOfLabVIEW.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SummerOfLabVIEW/SummerOfLabVIEW.exe</Property>
@@ -128,7 +128,7 @@
 				<Property Name="Destination[4].destName" Type="Str">session</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/SummerOfLabVIEW/www/session</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/www/public/ni-webvi-resource-v0/favicon.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{CD87A9C5-7111-40EA-9A60-75558933416C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>

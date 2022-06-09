@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6D192D6A08522594EDAD4BF9328DD6B91B809FD5E305638D81A14C23576178EB6347DB44F686C07BEBB087F12874896C5706DC4FBC0CFAD7FF1AAF7B597BF676" Timestamp="1D86DF63E3B54B9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="99D254588AAB1283B34161368A5429DB5AE08078BE4B53BCA8FD4363F0BED4E07CB0502762C767DE9B10B66C3BC12755AEDED6D852BA8F3748900705998A55B9" Timestamp="1D875D1BC7DB13D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -86,7 +86,7 @@
 							<p.Text>className</p.Text>
 						</NodeLabel>
 						<Wire Id="9ad1aa640b5f4460b4fbb0e01ecddfc0" Joints="N(a1a8263541e6422284a0a2d2f7203263:Out)|(115,35) N(93cf4c391eaf48e2a4398f47ad624299:L0)|(125,35)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="45 170 40 40" Id="f321f9ccd93a44ca9fbaea7eccce3f50" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Auth\\GET User Info.gvi&quot;" Signature="@e46902560d544db68a74f3f5d54d3ac5" Target="WebApp::Support::Auth::GET User Info.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="45 170 40 40" Id="f321f9ccd93a44ca9fbaea7eccce3f50" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Auth\\GET User Info.gvi&quot;" Signature="@d73b8562004848d7b59fd66208b0de09" Target="WebApp::Support::Auth::GET User Info.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="R0" Desc="User Info" />
@@ -95,7 +95,7 @@
 									<Parameter Id="R3" Desc="Error out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="@b442b8acd2524770bced9204a483adef" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@e771fc6340944a4bbbdeee848d5a732b" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -182,7 +182,7 @@
 			<ObtainJavaScriptReference Bounds="625 10 40 40" Id="35bf619ca596466dbd6e37844c41ad3c" Terminals="reference in=92c6ca63ae2d41589ba3dbd498716b49, reference out, error in, error out, javascript reference out=9b5a4054a6f04fbca973cdbf01c182a0" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Wire Id="9b5a4054a6f04fbca973cdbf01c182a0" Joints="N(35bf619ca596466dbd6e37844c41ad3c:javascript reference out)|(665,35) N(256d49a39a9042d8a881d25ffb870f8e:L0)|(690,35)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Literal Bounds="120 -175 545 175" DataType="String" Id="ed4c9dbee46241bb89b74c491fa41390" Label="b5d256bc60ee46a7b5d10f65116824c3" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>"The &lt;b&gt;Summer of LabVIEW&lt;/b&gt; is a global NI Sales and Support event to increase &lt;i&gt;awareness, excitement&lt;/i&gt;, and &lt;i&gt;prowess&lt;/i&gt; with LabVIEW through a series of &lt;b&gt;coding challenges&lt;/b&gt;, preceded by presentations and workshops teaching concepts that are applicable to the coding challenge tasks. Join the conversation about the event on &lt;a href="https://web.yammer.com/main/org/ni.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDUxNDYzNzYxOTIifQ/all" target="_blank"&gt;our Yammer page&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\nTo prepare for the event, you'll need to install LabVIEW 2020 or later. Download LabVIEW &lt;a href="https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#443865" target="_blank"&gt;here&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\nFor the first challenge, you will also need to install DQMH from the VIPM Community &lt;a href="https://www.vipm.io/package/delacor_lib_dqmh_toolkit/" target="_blank"&gt;here&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\n&lt;hr&gt;\n&lt;br&gt;\nThis website is run on a web server written entirely in LabVIEW with the client side developed using the G Web Development software. You can find the source at &lt;a href="https://github.com/illuminated-g/lv-sol-22" target="_blank"&gt;https://github.com/illuminated-g/lv-sol-22&lt;/a&gt;. The underlying libraries used for the server will be available on VIPM this Summer."</p.Data>
+				<p.Data>"The &lt;b&gt;Summer of LabVIEW&lt;/b&gt; is a global NI Sales and Support event to increase &lt;i&gt;awareness, excitement&lt;/i&gt;, and &lt;i&gt;prowess&lt;/i&gt; with LabVIEW through a series of &lt;b&gt;coding challenges&lt;/b&gt;, preceded by presentations and workshops teaching concepts that are applicable to the coding challenge tasks. Join the conversation about the event on &lt;a href="https://web.yammer.com/main/org/ni.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDUxNDYzNzYxOTIifQ/all" target="_blank"&gt;our Yammer page&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\nYou can also find information on our sharepoint where there are all of the training session recordings as well as recordings of challenge introductions and how to use the website: &lt;a href="https://nio365.sharepoint.com/sites/SummerofLabVIEW" target="_blank"&gt;Summer of LabVIEW SharePoint&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\nTo prepare for the event, you'll need to install LabVIEW 2020 or later. Download LabVIEW &lt;a href="https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#443865" target="_blank"&gt;here&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\nFor the first challenge, you will also need to install DQMH from the VIPM Community &lt;a href="https://www.vipm.io/package/delacor_lib_dqmh_toolkit/" target="_blank"&gt;here&lt;/a&gt;.&lt;br&gt;\n&lt;br&gt;\n&lt;hr&gt;\n&lt;br&gt;\nThis website is run on a web server written entirely in LabVIEW with the client side developed using the G Web Development software. You can find the source at &lt;a href="https://github.com/illuminated-g/lv-sol-22" target="_blank"&gt;https://github.com/illuminated-g/lv-sol-22&lt;/a&gt;. The underlying libraries used for the server will be available on VIPM this Summer."</p.Data>
 				<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 			</Literal>
 			<NodeLabel AttachedTo="ed4c9dbee46241bb89b74c491fa41390" Bounds="120 -193 30 15" Id="b5d256bc60ee46a7b5d10f65116824c3" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -214,16 +214,16 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e46902560d544db68a74f3f5d54d3ac5">
-			<Attributed AttributedType="@9b0e96e2eacc4b91aa401f0bd5496b6f">
+		<p.TypeReference TypeId="d73b8562004848d7b59fd66208b0de09">
+			<Attributed AttributedType="@bae70e88bb6543fcba4e1c442d93b629">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b442b8acd2524770bced9204a483adef">
-			<Attributed AttributedType="@6168a6b1ef2b49a384af9a954bfbfde0">
+		<p.TypeReference TypeId="e771fc6340944a4bbbdeee848d5a732b">
+			<Attributed AttributedType="@244992ad22244ff8823c9c3bd09742c7">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::Data Types" />
 				</AttributeValues>
@@ -278,10 +278,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9b0e96e2eacc4b91aa401f0bd5496b6f">
+		<p.TypeReference TypeId="bae70e88bb6543fcba4e1c442d93b629">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="GET User Info.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@0a3f4e49ccd74add8fe88611d92f07a0">
+					<Attributed AttributedType="@3cec1a4795e543218d0db9dcd821d0f6">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]User Info" />
 						</AttributeValues>
@@ -304,8 +304,8 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6168a6b1ef2b49a384af9a954bfbfde0">
-			<Typedef TypedefName="User Info JSON.gtype" UnderlyingType="@6f0317b43c6e47bbbab9ad7efeb7dcb4" />
+		<p.TypeReference TypeId="244992ad22244ff8823c9c3bd09742c7">
+			<Typedef TypedefName="User Info JSON.gtype" UnderlyingType="@801f15bb597c4727b6342644094c4603" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="a6c593ae3c89462e8d9253b879a347b0">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="SetUser" ReturnType="Void" GenericTypeDefinition="Void">
@@ -381,8 +381,8 @@
 		<p.TypeReference TypeId="53891f63cfae4b43ac656ee8e64de405">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="0a3f4e49ccd74add8fe88611d92f07a0">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@b442b8acd2524770bced9204a483adef" />
+		<p.TypeReference TypeId="3cec1a4795e543218d0db9dcd821d0f6">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@e771fc6340944a4bbbdeee848d5a732b" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="c96c792c4af84728a1da5b349defff10">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Boolean" />
@@ -390,13 +390,14 @@
 		<p.TypeReference TypeId="7dc14a515679452895509c4cde8fb26c">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="String" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="6f0317b43c6e47bbbab9ad7efeb7dcb4">
+		<p.TypeReference TypeId="801f15bb597c4727b6342644094c4603">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="email" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="first_name" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="last_name" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="department" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="admin" DataType="Boolean" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

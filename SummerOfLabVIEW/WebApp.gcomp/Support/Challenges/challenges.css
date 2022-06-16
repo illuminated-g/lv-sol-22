@@ -46,3 +46,16 @@
 .chal-desc {
     clear: both;
 }
+
+.chal-score-label {
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.chal-item table {
+    margin-left: 1rem;
+}
+
+.chal-item td {
+    padding: 3px;
+}

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1E7DA65E0E3F21B2F75B914D0685BE7292A9B3C9DFD96530F0E77D7B1D58BB328AAAA6CE94E7A13CF8C939C7344FA212DD3059733B354E24084C1F218E74AFCA" Timestamp="1D8749830B80F39" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0BCA835513AF6A40836EAEF749F6BAA69214E7D5C41E895617D8A2CF553F67BFEE011B5F771C80204DCE7BFA6E3B24AD4837E979E66C42C5353FE3E7AF180CCF" Timestamp="1D881C1BE8B4ACC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
@@ -21,7 +21,6 @@
 			<ComponentItemProperties AssociatedEnvoyId="6c92329077fc4034b752a3c6b356e251" Id="fe1e653ef7ac46deafb7dcb4279c3707" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="fa8a3df4bbeb42208461f67ab5bce796" Id="9327d9c96b3948ba8a5488a33d338d4b" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="e5e46f384ca14da4bad48fc0e6501b2f" Id="8bb77478aaf9417baf2bbfe60e334429" TopLevel="True" />
-			<ComponentItemProperties AssociatedEnvoyId="79ba9eed7b0a4a089d97c54a3ca6450d" Id="5cdcbd1f4a764aba852aed9b11bb9956" TopLevel="True" />
 			<ComponentItemProperties AssociatedEnvoyId="c94792224c3b4d3da3a8e6c0c4abc86f" Id="e181b24094c5498e809dfc45f322f654" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1d4cb939485a4be8acc0cf6f29a2b453" Id="856b4e95cb6c4e2ab4ce9615778c1ee7" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c7e4770203248739c46657ad3d7d232" Id="4b369dd0260b4b318f3190e56eff03ae" />
@@ -33,6 +32,8 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b753e4ae8f844b5ebe61bcca6ae8d29f" Id="4158dbfcd2424507b7b4e178db60e0d6" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="fbcf748a810b47d7aea25f88302ce13b" Id="6a21f01cb9554516aae2f318ea025009" />
 			<ComponentItemProperties AssociatedEnvoyId="b16f860d672d4c1185e256c43509ccf1" Id="6b33f6e6e84c4d83a7f27abec08ee455" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="ea4226a308804942b1e7f76f54137222" Id="7a5d2ce5618545d19c07f7746f2af1c6" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="56caf9b7cd894f59b12a498af4f93fa7" Id="1d628a3b1c9a4a53bbd36f76edb0e4dd" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="5106c1f8c2594beab4b500eeb8196c04" xmlns="http://www.ni.com/PlatformFramework">
@@ -56,6 +57,7 @@
 					<SourceFileReference Bindings="EnvoyManager" Id="f666f7b6809a4afe8edec90c4ab3192f" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Submission JSON.gtype" StoragePath="Data Types\Submission JSON.gtype\Submission JSON.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="b7309900ee7a4287b7682b057b3f2914" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Pending Submission JSON.gtype" StoragePath="Data Types\Pending Submission JSON.gtype\Pending Submission JSON.gtype" />
 					<SourceFileReference Bindings="EnvoyManager" Id="b315e2d14ed7438d8709a4970b003620" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Admin Info JSON.gtype" StoragePath="Data Types\Admin Info JSON.gtype\Admin Info JSON.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="5c63784924ef4ca5a41a27a30962edcb" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="User Score JSON.gtype" StoragePath="Data Types\User Score JSON.gtype\User Score JSON.gtype" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8df07f73d71b480ba105bd1905a37da1" Name="Support">
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="de4ab2e4b0a641f1bdfcaa3b1c3d2aca" Name="Registration">
@@ -96,6 +98,12 @@
 						<SourceFileReference Id="7aed3f57926443958c1b0b0b21b8dde6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Approve.gvi" StoragePath="Support\Admin\Approve.gvi" />
 						<SourceFileReference Id="eefaad75d6a44c2fbf640ac560e0fd12" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Admin Info.gvi" StoragePath="Support\Admin\GET Admin Info.gvi" />
 						<SourceFileReference Id="e65d31faf565400c88c2274f13b49859" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Populate Admin.gvi" StoragePath="Support\Admin\Populate Admin.gvi" />
+					</NameScopingEnvoy>
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="d545e7784b67435b8e67e1cae0ae9cd7" Name="Leaderboard">
+						<SourceFileReference Id="df65e1cf7b19444cb4b704cdb2607eb8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET Leaderboard.gvi" StoragePath="Support\Leaderboard\GET Leaderboard.gvi" />
+						<SourceFileReference Bindings="EnvoyManager" Id="75be8995f8874a0db6cbf347c5f263f0" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Leaderboard.jsli" StoragePath="Support\Leaderboard\Leaderboard.jsli" />
+						<FileReference Bindings=".js" Id="ea4226a308804942b1e7f76f54137222" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="leaderboard.js" StoragePath="Support\Leaderboard\leaderboard.js" />
+						<FileReference Bindings=".css" Id="56caf9b7cd894f59b12a498af4f93fa7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="leaderboard.css" StoragePath="Support\Leaderboard\leaderboard.css" />
 					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 				<SourceFileReference Id="e6d60081272a4ba891f28f90f148639b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="help.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="help.gviweb" />

@@ -1,0 +1,23 @@
+.leaderboard-label {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.leaderboard-outer {
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.leaderboard-outer td {
+    padding: 4px 8px;
+}
+
+.leaderboard-outer tr:nth-child(odd) {
+    background-color: #CED;
+}
+
+.leaderboard-outer tr:nth-child(even) {
+    background-color: #DFE;
+}

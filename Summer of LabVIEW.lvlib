@@ -37,6 +37,7 @@
 		<Item Name="Approval.lvclass" Type="LVClass" URL="../Approval/Approval.lvclass"/>
 		<Item Name="Challenges.lvclass" Type="LVClass" URL="../Challenges/Challenges.lvclass"/>
 		<Item Name="CSRF.lvclass" Type="LVClass" URL="../CSRF/CSRF.lvclass"/>
+		<Item Name="Leaderboard.lvclass" Type="LVClass" URL="../Leaderboard/Leaderboard.lvclass"/>
 		<Item Name="Registration.lvclass" Type="LVClass" URL="../Registration/Registration.lvclass"/>
 		<Item Name="Submit.lvclass" Type="LVClass" URL="../Submit/Submit.lvclass"/>
 		<Item Name="User API.lvclass" Type="LVClass" URL="../User API/User API.lvclass"/>
@@ -50,6 +51,7 @@
 		<Item Name="Registration JSON.ctl" Type="VI" URL="../Data Types/Registration JSON.ctl"/>
 		<Item Name="Submission JSON.ctl" Type="VI" URL="../Data Types/Submission JSON.ctl"/>
 		<Item Name="User Info JSON.ctl" Type="VI" URL="../Data Types/User Info JSON.ctl"/>
+		<Item Name="User Score.ctl" Type="VI" URL="../User Score.ctl"/>
 	</Item>
 	<Item Name="Entities" Type="Folder">
 		<Item Name="Challenge.lvclass" Type="LVClass" URL="../Challenge/Challenge.lvclass"/>

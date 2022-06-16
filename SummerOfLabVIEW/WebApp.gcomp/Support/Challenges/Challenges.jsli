@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="24C61DA588CE3A2B5677A8004F7F41FC4000F7E1268958FEF91E1A6150761FDC2FC4F9D05F63555F933F445CB903BC806DA400540DC17207F934DB587D3A055E" Timestamp="1D86CC987537AD0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8A154ACB03B4B87A0580B4AD7A1129A50E05A40A40A4D66F1395CBDCC288DE98CB969974732AF3BEF090361FD525B36A5B8185C78BE556C02B2D747D7BF19C4B" Timestamp="1D881D83D9B5CEE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -11,7 +11,7 @@
 				<IconTemplate Height="[float]40" Id="62579e77fefd4ac49ae876427cd12642" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DependenciesTextBox Id="1b6728b766144daa96a54e83850c4766" ScriptAndLinkDependencies="&quot;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;challenges.css&amp;quot;&amp;gt;\r\n&amp;lt;script src=&amp;quot;challenges.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&quot;" />
+		<DependenciesTextBox Id="1b6728b766144daa96a54e83850c4766" ScriptAndLinkDependencies="&quot;\r\n&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;challenges.css&amp;quot;&amp;gt;\r\n&amp;lt;script src=&amp;quot;challenges.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\r\n&quot;" />
 	</JavaScriptLibrary>
 	<EnvoyManagerFile Id="bcb75b1973174613bf25604d87dbb7b2" xmlns="http://www.ni.com/PlatformFramework">
 		<EnvoyManagerRootEnvoy Id="c79e50bfb2334450bc164a395f811b93" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />

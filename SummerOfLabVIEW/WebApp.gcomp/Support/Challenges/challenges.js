@@ -20,6 +20,7 @@
             var elt;
             var chal = document.createElement("div");
             chal.classList.add("chal-item");
+            container.appendChild(chal);
 
             // Name
             elt = document.createElement("div");
@@ -66,8 +67,6 @@
             elt.classList.add("chal-inst");
             elt.innerHTML = challenge.instructions;
             chal.appendChild(elt);
-
-            container.appendChild(chal);
         });
 
         placeholder.appendChild(container);

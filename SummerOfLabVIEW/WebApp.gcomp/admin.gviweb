@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3A161030AFB7504A00B72087EC4367454C64EAF3DBE47EDBD31F177E21F02141C6706E7DBE11634240855F29D09F27CA6802AC89B2F202ACE4F8EFC8D10D0CF7" Timestamp="1D87C416BF837DD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="31FCE2CE6FA2F12CB38C44A81F23107B8A47F3843F8B8BB95EDA0793222E29B04EB3C0A324EDDC6EC1D6460E7E94FA4E0721CC7865EBB0BF7061482F57AA15B1" Timestamp="1D884BFF7E403BD" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -119,21 +119,30 @@
 						<ControlReference Bounds="50 22 75 20" Id="bd08d043bc8d4976b32b6ff5c381d977" SourceControl="41808d415b1c40d0bd16bef8bb214a1a" />
 						<ControlReference Bounds="50 47 75 20" Id="c97114789325483693139de5bd6149ae" SourceControl="9702d887df444851a68fa22017778540" />
 						<ControlReference Bounds="65 72 60 20" Id="bce1c0069ae640b39dd9991c3c9862ee" SourceControl="c290a83e7724443d8a8e2340373fe7b8" />
-						<MethodCall Bounds="160 22 40 40" Id="9a36b25083534b7699e7116eb55fd335" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Admin\\Populate Admin.gvi&quot;" Signature="@511b3c20cf544dd49bc42befc511df99" Target="WebApp::Support::Admin::Populate Admin.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="160 22 40 40" Id="9a36b25083534b7699e7116eb55fd335" ResolveFailedHint="&quot;C:\\dev\\IlluminatedG\\lv-sol-22\\SummerOfLabVIEW\\WebApp.gcomp\\Support\\Admin\\Populate Admin.gvi&quot;" Signature="@4102c8073c87442983ec0c5a75af828b" Target="WebApp::Support::Admin::Populate Admin.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+									<Parameter Id="B0" Desc="Filter Completed" />
 									<Parameter Id="L0" Desc="Pending" />
 									<Parameter Id="L1" Desc="Running" />
 									<Parameter Id="L2" Desc="Done" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
+							<Terminal DataType="Boolean" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType=":DotNet:NationalInstruments.Controls.Runtime.DataGridProxy, NationalInstruments.Controls.Runtime`@6a92a0dd29d04724b6307ebe9e14e3c0`@6a92a0dd29d04724b6307ebe9e14e3c0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType=":DotNet:NationalInstruments.Controls.Runtime.DataGridProxy, NationalInstruments.Controls.Runtime`@57809599fe6742c993d3b2b0fc9e6016`@57809599fe6742c993d3b2b0fc9e6016" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType=":DotNet:NationalInstruments.Controls.Runtime.DataGridProxy, NationalInstruments.Controls.Runtime`@1e5e5987a9f041c1bb0ab9ed09bc313c`@1e5e5987a9f041c1bb0ab9ed09bc313c" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Wire Id="a6488e9bb5b6486089e0bd05f433b8a4" Joints="N(bd08d043bc8d4976b32b6ff5c381d977:control reference)|(125,27) N(9a36b25083534b7699e7116eb55fd335:L0)|(160,27)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="1d8613876a1344f393d86413e05513c7" Joints="N(c97114789325483693139de5bd6149ae:control reference)|(125,52) h(5) v(-15) N(9a36b25083534b7699e7116eb55fd335:L1)|(160,37)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="25b825bec2074546a4655529de6a20eb" Joints="N(bce1c0069ae640b39dd9991c3c9862ee:control reference)|(125,77) h(29) v(-30) N(9a36b25083534b7699e7116eb55fd335:L2)|(160,47)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="25b825bec2074546a4655529de6a20eb" Joints="N(bce1c0069ae640b39dd9991c3c9862ee:control reference)|(125,77) h(20) v(-30) N(9a36b25083534b7699e7116eb55fd335:L2)|(160,47)" xmlns="http://www.ni.com/PlatformFramework" />
+						<DataAccessor Bounds="110 102 40 15" DataItem="d7e5b9e682af4aed800500e8005aaba4" Id="28fdb1ed1552466684c7d1e5998b58eb" Label="853fa83d16f44724841d37dcf0c96ed1" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="28fdb1ed1552466684c7d1e5998b58eb" Bounds="13 102 92 14" Id="853fa83d16f44724841d37dcf0c96ed1" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Filter Completed</p.Text>
+						</NodeLabel>
+						<Wire Id="fbaf4d52fcbe491a9cee63339fbbbbab" Joints="N(28fdb1ed1552466684c7d1e5998b58eb:Value)|(150,107) h(25) N(9a36b25083534b7699e7116eb55fd335:B0)|(175,62)" xmlns="http://www.ni.com/PlatformFramework" />
 					</EventStructure.EventCase>
 					<EventStructure.EventTimeout Bounds="-2 20 25 25" Docking="Left" Id="e307037eafb2456595c00ccda1446f66" Terminals="d6b744b6363a470d80770a4643340fe8=8f423ffaf7064da2b1b29d18ab3c64ca, fef03df5204c43abb596965b1ea38b73, e3615986015c4425bfb719aaaf223606" />
 				</EventStructure>
@@ -303,6 +312,8 @@
 				</LVDataGridColumn>
 			</LVDataGrid>
 			<Label Height="[float]16" Id="334fae0ac4424b5090b7e96fe7e188cc" LabelOwner="[UIModel]c290a83e7724443d8a8e2340373fe7b8" Left="[float]20" Text="[string]Done" Top="[float]384" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+			<LVCheckBox BaseName="[string]Checkbox" Content="[string]Filter Completed" Height="[float]23" Id="cb44dd48da94ae7a0c5b4163ab946d3" Label="[UIModel]9657b5837b0446dfafd76b216c9c95d6" Left="[float]898" TabIndex="[int]3" Top="[float]383" Value="{DataItemBinding Id=d7e5b9e682af4aed800500e8005aaba4}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]0" Id="9657b5837b0446dfafd76b216c9c95d6" LabelOwner="[UIModel]cb44dd48da94ae7a0c5b4163ab946d3" Left="[float]898" Text="[string]Filter Completed" Top="[float]363" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
 		<DataItem DataType="@6a92a0dd29d04724b6307ebe9e14e3c0" Id="92eb8c1234b94d0d91393d3f751a61a6" Name="Pending" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
@@ -312,6 +323,9 @@
 		</DataItem>
 		<DataItem DataType="@1e5e5987a9f041c1bb0ab9ed09bc313c" Id="3135742a2b844c79baa161a7fd32c53c" Name="Done" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="d7e5b9e682af4aed800500e8005aaba4" Name="Filter Completed" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
@@ -364,8 +378,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="511b3c20cf544dd49bc42befc511df99">
-			<Attributed AttributedType="@84c0e61127f14c25b69da946313ac794">
+		<p.TypeReference TypeId="4102c8073c87442983ec0c5a75af828b">
+			<Attributed AttributedType="@5d02cb4af9444621b9ee0b970b7ed91a">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -465,9 +479,14 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="84c0e61127f14c25b69da946313ac794">
+		<p.TypeReference TypeId="5d02cb4af9444621b9ee0b970b7ed91a">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Populate Admin.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
+					<Attributed AttributedType="@cea5f805663d4ff0b97c3edf5111547a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Filter Completed" />
+						</AttributeValues>
+					</Attributed>
 					<Attributed AttributedType="@3f00f0d473f74adb8f67e1e5663478c7">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Pending" />
@@ -606,6 +625,9 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="53891f63cfae4b43ac656ee8e64de405">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cea5f805663d4ff0b97c3edf5111547a">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="B0" DataType="Boolean" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="3f00f0d473f74adb8f67e1e5663478c7">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType=":DotNet:NationalInstruments.Controls.Runtime.DataGridProxy, NationalInstruments.Controls.Runtime`@6a92a0dd29d04724b6307ebe9e14e3c0`@6a92a0dd29d04724b6307ebe9e14e3c0" />

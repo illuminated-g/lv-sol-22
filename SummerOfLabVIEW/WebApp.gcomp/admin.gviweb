@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="31FCE2CE6FA2F12CB38C44A81F23107B8A47F3843F8B8BB95EDA0793222E29B04EB3C0A324EDDC6EC1D6460E7E94FA4E0721CC7865EBB0BF7061482F57AA15B1" Timestamp="1D884BFF7E403BD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7F0FA9F27D8F8F160EEB73D6CB02BD2BED0B89D1953818A0AF2D881E52432C626E10FC4C1614E2F11D070273D2E42ABADEEDABB20C2F18EDAA324EF9371D5648" Timestamp="1D88578F052BDA9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -291,7 +291,7 @@
 				</LVDataGridColumn>
 			</LVDataGrid>
 			<Label Height="[float]16" Id="392de0f00a4d48a4be6c96a9c0c31242" LabelOwner="[UIModel]9702d887df444851a68fa22017778540" Left="[float]20" Text="[string]Running" Top="[float]256" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
-			<LVDataGrid AllowFiltering="[bool]False" AllowGrouping="[bool]True" BaseName="[string]Data Grid" CanUserSortColumns="[bool]True" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]312" Id="c290a83e7724443d8a8e2340373fe7b8" IsReadOnly="[bool]True" Label="[UIModel]334fae0ac4424b5090b7e96fe7e188cc" Left="[float]20" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]22" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]404" Type="[Type]@1e5e5987a9f041c1bb0ab9ed09bc313c" Value="{DataItemBinding Id=3135742a2b844c79baa161a7fd32c53c}" Width="[float]984" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<LVDataGrid AllowFiltering="[bool]False" AllowGrouping="[bool]True" BaseName="[string]Data Grid" CanUserSortColumns="[bool]True" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]330" Id="c290a83e7724443d8a8e2340373fe7b8" IsReadOnly="[bool]True" Label="[UIModel]334fae0ac4424b5090b7e96fe7e188cc" Left="[float]20" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]22" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]404" Type="[Type]@1e5e5987a9f041c1bb0ab9ed09bc313c" Value="{DataItemBinding Id=3135742a2b844c79baa161a7fd32c53c}" Width="[float]984" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<LVDataGridColumn ColumnElement="[UIModel]b233834873424caf80ef80b502f97313" Header="[string]ID" Id="9d59a855acf6483db479141db5552eed" Index="[int]0" IsReadOnly="[bool]True" SortDirection="[ListSortDirection]Ascending" ValueType="[Type]Double" Width="[DataViewerLength]60">
 					<NumericText Height="[float]16" Id="b233834873424caf80ef80b502f97313" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]36" />
 				</LVDataGridColumn>
@@ -313,7 +313,7 @@
 			</LVDataGrid>
 			<Label Height="[float]16" Id="334fae0ac4424b5090b7e96fe7e188cc" LabelOwner="[UIModel]c290a83e7724443d8a8e2340373fe7b8" Left="[float]20" Text="[string]Done" Top="[float]384" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
 			<LVCheckBox BaseName="[string]Checkbox" Content="[string]Filter Completed" Height="[float]23" Id="cb44dd48da94ae7a0c5b4163ab946d3" Label="[UIModel]9657b5837b0446dfafd76b216c9c95d6" Left="[float]898" TabIndex="[int]3" Top="[float]383" Value="{DataItemBinding Id=d7e5b9e682af4aed800500e8005aaba4}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]0" Id="9657b5837b0446dfafd76b216c9c95d6" LabelOwner="[UIModel]cb44dd48da94ae7a0c5b4163ab946d3" Left="[float]898" Text="[string]Filter Completed" Top="[float]363" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="9657b5837b0446dfafd76b216c9c95d6" LabelOwner="[UIModel]cb44dd48da94ae7a0c5b4163ab946d3" Left="[float]898" Text="[string]Filter Completed" Top="[float]363" Visible="[bool]False" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
 		<DataItem DataType="@6a92a0dd29d04724b6307ebe9e14e3c0" Id="92eb8c1234b94d0d91393d3f751a61a6" Name="Pending" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>

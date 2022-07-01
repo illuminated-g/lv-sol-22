@@ -17,6 +17,7 @@
 		<Item Name="SoL Scoring.lvlib" Type="Library" URL="../SoL Scoring/SoL Scoring.lvlib"/>
 		<Item Name="Summer of LabVIEW.lvlib" Type="Library" URL="../Summer of LabVIEW.lvlib"/>
 		<Item Name="SummerOfLabVIEW.ini" Type="Document" URL="../SummerOfLabVIEW.ini"/>
+		<Item Name="Wordle Results.vi" Type="VI" URL="../Wordle Scorer/Wordle Results.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

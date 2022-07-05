@@ -94,7 +94,7 @@
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88ABCEBF-576F-4BBD-826A-E7889FD20CF1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F1AB919-823C-459A-8505-3FC1627C1097}</Property>
 				<Property Name="Source[0].newName" Type="Str">wordle_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>

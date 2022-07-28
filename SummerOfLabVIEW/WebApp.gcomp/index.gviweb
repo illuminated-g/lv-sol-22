@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1E6DB77F477D6A2601336DD1510A1A6D0081B7B16713693BE90F4DB441322DA60571099EBD88B17FA1B1D6EBA2F25D91D85D46FB570906A23E6C1E1DB4AE83BC" Timestamp="1D881C169382EB8" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="96C3EADDB2941EC5112B708D131CAF053BB3F6035A760B31F16E9365E3CDC200B4CF8EE29B320D9832DB63022281A201CC6C4EC69A0CA1B101A84A957036C9BD" Timestamp="1D8A2A22C9DF1FE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -183,11 +183,11 @@
 							</EventStructure.EventCase>
 							<EventStructure.EventTimeout Bounds="-2 47 25 25" Docking="Left" Id="314fc23e23a44962bd550ee0762e2a9b" Terminals="b4232a944641426b927e933585229fa8=7fd84a853d124131885d592b5ea4cef9, fe36278c0aa4ae690dcb8b44cddbd90" />
 						</EventStructure>
-						<Literal Bounds="455 50 55 15" DataType="Int32" Id="9fc3f2fc5697475ca177c64df9b62d30" Label="8b00cdd963b842d9914b7f6ddcd213e8" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>30000</p.Data>
+						<Literal Bounds="450 50 60 15" DataType="Int32" Id="9fc3f2fc5697475ca177c64df9b62d30" Label="8b00cdd963b842d9914b7f6ddcd213e8" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>240000</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="9fc3f2fc5697475ca177c64df9b62d30" Bounds="455 32 30 15" Id="8b00cdd963b842d9914b7f6ddcd213e8" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="9fc3f2fc5697475ca177c64df9b62d30" Bounds="450 32 30 15" Id="8b00cdd963b842d9914b7f6ddcd213e8" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>timeout</p.Text>
 						</NodeLabel>
 						<Wire Id="5ac3c040159043b59de1ace8c9c84541" Joints="N(9fc3f2fc5697475ca177c64df9b62d30:Out)|(510,55) N(7e0d0cf0e9bb47649b0e9dd1271d0a73:c22874072284dcb8f6f660c2d0df51e)|(526,55)" xmlns="http://www.ni.com/PlatformFramework" />

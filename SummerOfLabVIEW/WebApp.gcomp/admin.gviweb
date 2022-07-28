@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7F0FA9F27D8F8F160EEB73D6CB02BD2BED0B89D1953818A0AF2D881E52432C626E10FC4C1614E2F11D070273D2E42ABADEEDABB20C2F18EDAA324EF9371D5648" Timestamp="1D88578F052BDA9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D52C015206B1B15707EB79C6C3677B30CA162A972A6AC6E8481B450252F5976D27E59933DE774BD183A472AE240849489922CA7050ACAA8EC5A041D7405CD423" Timestamp="1D8A2A267FFD0CD" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -248,7 +248,7 @@
 			<Wire Id="e2a4f75f285441208e0a02b6817a8a6f" Joints="N(aa804e500a7b4bfd89748373164d0ae2:R1)|(185,300) N(ccc68b23f27647458cd4039121ef1a1f:L0)|(200,300)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="c1dd8949638e457bbba053b6294a87ee" Joints="N(aa804e500a7b4bfd89748373164d0ae2:R2)|(185,310) N(ccc68b23f27647458cd4039121ef1a1f:L1)|(200,310)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Literal Bounds="215 135 55 15" DataType="Int32" Id="cbb88944805c4fbfbe1f87440cfcaf5f" Label="db13a669f526403baf5ecd7b6fd51968" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>10000</p.Data>
+				<p.Data>20000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 			</Literal>
 			<Wire Id="5064da149cd84ecaad5e7d5ee54bd470" Joints="N(cbb88944805c4fbfbe1f87440cfcaf5f:Out)|(270,140) N(8555107d5c764e62814daccb18fcd045:o0)|(281,140)" xmlns="http://www.ni.com/PlatformFramework" />

@@ -26,6 +26,7 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="Summer of LabVIEW.lvlib:Scorer.lvclass" Type="Friended Library" URL="../../Scorer/Scorer.lvclass"/>
 		<Item Name="Summer of LabVIEW.lvlib:Approval.lvclass" Type="Friended Library" URL="../../Approval/Approval.lvclass"/>
+		<Item Name="Summer of LabVIEW.lvlib:Submit.lvclass" Type="Friended Library" URL="../../Submit/Submit.lvclass"/>
 	</Item>
 	<Item Name="SOL-Server.ctl" Type="Class Private Data" URL="SOL-Server.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
